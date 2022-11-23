@@ -1,0 +1,9 @@
+query getTransactionFee(
+    $input: TransactionFeeInput!
+){
+    getTransactionFee(
+      input: $input
+    ) {
+        ...MoneyFragment
+    }
+}

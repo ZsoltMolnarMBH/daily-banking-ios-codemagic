@@ -1,0 +1,10 @@
+fragment ConsentFragment on ConsentInfo {
+    isPep
+    taxation {
+        ...TaxationFragment
+    }
+    acceptTerms
+    acceptConditions
+    acceptPrivacyPolicy
+    taxResidency
+}

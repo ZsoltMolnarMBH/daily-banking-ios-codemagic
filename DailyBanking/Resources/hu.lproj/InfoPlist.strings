@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  DailyBanking
+
+  Created by Szabó Zoltán on 2021. 12. 09..
+  
+*/
+
+NSFaceIDUsageDescription = "Engedélyezi, hogy a SuperApp azonosítsa a készülékén beállított biometrikus azonosítóval?";
+NSCameraUsageDescription = "A kamerára a fényképes azonosítás miatt van szükség.";
+NSMicrophoneUsageDescription = "A mikrofonra a fényképes azonosítás miatt van szükség.";
+NFCReaderUsageDescription = "Az NFC-re az azonosító okmány adatainak beolvasása miatt van szükség";
+CFBundleDisplayName = "SuperApp";
+CFBundleName = "SuperApp";

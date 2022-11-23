@@ -1,0 +1,5 @@
+query listContracts {
+    listContracts {
+        ...UserContractFragment
+    }
+}

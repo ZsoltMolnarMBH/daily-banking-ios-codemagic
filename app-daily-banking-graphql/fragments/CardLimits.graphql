@@ -1,0 +1,6 @@
+fragment CardLimitFragment on CardLimit {
+    total
+    remaining
+    min
+    max
+}

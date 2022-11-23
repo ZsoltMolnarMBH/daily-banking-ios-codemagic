@@ -1,0 +1,6 @@
+fragment AccountClosureStatementInfoFragment on AccountClosureStatementInfo {
+    polling,
+    contractId,
+    successful,
+    error
+}

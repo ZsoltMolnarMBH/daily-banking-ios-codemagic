@@ -1,0 +1,27 @@
+query getApplication {
+    getApplication {
+        nextStep
+        selectedProduct
+
+        individual {
+            ...IndividualFragment
+        }
+        consentInfo {
+            ...ConsentFragment
+        }
+        kycSurvey {
+            ...KycSurveyFragment
+        }
+        contractInfo {
+            ...ContractInfoFragment
+        }
+        signInfo {
+            signedAt
+        }
+        dmStatement {
+            push
+            email
+            robinson
+        }
+    }
+}

@@ -1,0 +1,18 @@
+mutation deviceActivation (
+    $password: String!,
+    $phoneNumber: String!,
+    $device: String!,
+    $deviceId: String!
+) {
+    deviceActivation (
+        password: $password,
+        phoneNumber: $phoneNumber,
+        device: $device,
+        deviceId: $deviceId
+    ) {
+        temporaryToken
+        otpInfo {
+            ...OtpInfoFragment
+        }
+    }
+}

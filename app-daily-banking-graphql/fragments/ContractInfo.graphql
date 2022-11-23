@@ -1,0 +1,6 @@
+fragment ContractInfoFragment on ContractInfo {
+    polling
+    successful
+    contractId
+    error
+}

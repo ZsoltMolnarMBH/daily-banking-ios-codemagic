@@ -1,0 +1,10 @@
+mutation verifyOtp (
+    $smsOtp: String!
+) {
+    verifyOtp (
+        smsOtp: $smsOtp
+    ) {
+        accessToken
+        refreshToken
+    }
+}

@@ -1,0 +1,9 @@
+query getDocument (
+    $type: PdfDocumentType!,
+    $id: String!
+) {
+    getPdfDocument (
+        type: $type,
+        id: $id
+    )
+}

@@ -1,0 +1,6 @@
+query listPaymentTransactions($accountId: String!) {
+    listPaymentTransactions(accountId: $accountId) {
+        ...PaymentTransactionFragment
+        ...CardTransactionFragment
+    }
+}

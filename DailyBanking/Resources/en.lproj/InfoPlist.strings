@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  DailyBanking
+
+  Created by Szabó Zoltán on 2021. 12. 09..
+  
+*/
+
+NSFaceIDUsageDescription = "Ha engedélyezi, arcfelismeréssel is beléphet az appba és jóváhagyhatja a tranzakciókat.";

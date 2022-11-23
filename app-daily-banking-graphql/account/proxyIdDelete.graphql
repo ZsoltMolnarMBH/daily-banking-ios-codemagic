@@ -1,0 +1,13 @@
+mutation proxyIdDelete (
+    $iban: String!,
+    $bic: String!,
+    $alias: String!
+) {
+    proxyIdDelete (
+        iban: $iban,
+        bic: $bic,
+        alias: $alias
+    ) {
+        status
+    }
+}

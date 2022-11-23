@@ -1,0 +1,247 @@
+PODS:
+  - AnyFormatKit (2.5.2)
+  - AnyFormatKitSwiftUI (0.5.3):
+    - AnyFormatKit (~> 2.5.2)
+  - Apollo (0.51.2):
+    - Apollo/Core (= 0.51.2)
+  - Apollo/Core (0.51.2)
+  - Confy (0.3.2)
+  - CryptoSwift (1.6.0)
+  - FaceKomSDK (2.6.8):
+    - OpenSSL-Universal (= 1.1.180)
+    - Socket.IO-Client-Swift (~> 16.0.1)
+    - Starscream (~> 4.0.4)
+    - XCWebRTC (~> 1.0.0)
+  - Firebase/AnalyticsWithoutAdIdSupport (10.1.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics/WithoutAdIdSupport (~> 10.1.0)
+  - Firebase/CoreOnly (10.1.0):
+    - FirebaseCore (= 10.1.0)
+  - Firebase/Crashlytics (10.1.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 10.1.0)
+  - Firebase/Messaging (10.1.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.1.0)
+  - Firebase/Performance (10.1.0):
+    - Firebase/CoreOnly
+    - FirebasePerformance (~> 10.1.0)
+  - FirebaseABTesting (10.1.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseAnalytics/WithoutAdIdSupport (10.1.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.1.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (10.1.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.1.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseCrashlytics (10.1.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseInstallations (10.1.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.1.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebasePerformance (10.1.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseRemoteConfig (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/ISASwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseRemoteConfig (10.1.0):
+    - FirebaseABTesting (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.1.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.8.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.8.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/ISASwizzler (7.8.0)
+  - GoogleUtilities/Logger (7.8.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.8.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.8.0)"
+  - GoogleUtilities/Reachability (7.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.8.0):
+    - GoogleUtilities/Logger
+  - KeychainAccess (4.2.2)
+  - lottie-ios (3.5.0)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - OpenSSL-Universal (1.1.180)
+  - PhoneNumberKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.4)
+    - PhoneNumberKit/UIKit (= 3.3.4)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.4)
+  - PhoneNumberKit/UIKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PromisesObjC (2.1.1)
+  - Resolver (1.5.0)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Sourcery (1.6.0)
+  - Starscream (4.0.4)
+  - SwiftEntryKit (2.0.0)
+  - SwiftGen (6.6.2)
+  - SwiftLint (0.49.1)
+  - SwiftyMocky (4.1.0):
+    - Sourcery (= 1.6.0)
+  - XCWebRTC (1.0.2)
+
+DEPENDENCIES:
+  - AnyFormatKitSwiftUI
+  - Apollo
+  - Apollo (= 0.51.2)
+  - Confy
+  - CryptoSwift
+  - "FaceKomSDK (from `git@github.com:Magyar-Bankholding-Zrt/sdk-facekom-ios.git`)"
+  - Firebase/AnalyticsWithoutAdIdSupport
+  - Firebase/Crashlytics
+  - Firebase/Messaging
+  - Firebase/Performance
+  - KeychainAccess
+  - lottie-ios
+  - PhoneNumberKit
+  - Resolver
+  - SwiftEntryKit (from `https://github.com/ZsoltMolnarMBH/SwiftEntryKit.git`)
+  - SwiftGen
+  - SwiftLint
+  - SwiftyMocky
+
+SPEC REPOS:
+  https://github.com/TechTeamer/ios-xc-webrtc.git:
+    - XCWebRTC
+  trunk:
+    - AnyFormatKit
+    - AnyFormatKitSwiftUI
+    - Apollo
+    - Confy
+    - CryptoSwift
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - KeychainAccess
+    - lottie-ios
+    - nanopb
+    - OpenSSL-Universal
+    - PhoneNumberKit
+    - PromisesObjC
+    - Resolver
+    - Socket.IO-Client-Swift
+    - Sourcery
+    - Starscream
+    - SwiftGen
+    - SwiftLint
+    - SwiftyMocky
+
+EXTERNAL SOURCES:
+  FaceKomSDK:
+    :git: "git@github.com:Magyar-Bankholding-Zrt/sdk-facekom-ios.git"
+  SwiftEntryKit:
+    :git: https://github.com/ZsoltMolnarMBH/SwiftEntryKit.git
+
+CHECKOUT OPTIONS:
+  FaceKomSDK:
+    :commit: 4435c9141617cf655bc58ab055bffe2e6052c687
+    :git: "git@github.com:Magyar-Bankholding-Zrt/sdk-facekom-ios.git"
+  SwiftEntryKit:
+    :commit: 6154da0ff6a24ca05c890b6523fa1fff99238d5d
+    :git: https://github.com/ZsoltMolnarMBH/SwiftEntryKit.git
+
+SPEC CHECKSUMS:
+  AnyFormatKit: b0dbb2a5f2fe7a0fc97f401f8a219a47ee63a335
+  AnyFormatKitSwiftUI: f46eb09de9f94c9842ffb0a56dc746c58b71a3b9
+  Apollo: e5bc805c3f3556c18edc4eae4e2ea4723cea2318
+  Confy: 55cf0469f68f66f3e5792eb64734c5f401700972
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  FaceKomSDK: af73d06009698da2d2ec66c04c1f882c39f1bc8d
+  Firebase: 444b35a9c568a516666213c2f6cccd10cb12559f
+  FirebaseABTesting: 8404d743de561c73570c8dbb7810035ffec10053
+  FirebaseAnalytics: 24cb27b52b2e11ad5013528195b4ca0755dec960
+  FirebaseCore: 55e7ae35991ccca4db03ff8d8df6ed5f17a3e4c7
+  FirebaseCoreInternal: 96d75228e10fd369564da51bd898414eb0f54df5
+  FirebaseCrashlytics: 93906d7085eb3e4dd90d08fe42a15d4f0406b6ab
+  FirebaseInstallations: 99d24bac0243cf8b0e96cf5426340d211f0bcc80
+  FirebaseMessaging: 4487bbff9b9b927ba1dd3ea40d1ceb58e4ee3cb5
+  FirebasePerformance: f5e6d88d6f06100a3ccfac854318dd48e4e006e1
+  FirebaseRemoteConfig: 20a413ed3ffeb84c12888bff19d02464f0faed69
+  GoogleAppMeasurement: e490e248af3da95afe8fa8e7baac232dc8d020b7
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
+  PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Sourcery: 744f43178637c79bf23127dfe34e2103b3f28499
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftEntryKit: 61b5fa36f34a97dd8013e48a7345bc4c4720be9a
+  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
+  SwiftLint: 32ee33ded0636d0905ef6911b2b67bbaeeedafa5
+  SwiftyMocky: 014739247afadb65efb5bb92ede32c22b9365762
+  XCWebRTC: 635b3521fd95cde033f08e71790517231929f8b3
+
+PODFILE CHECKSUM: 196bd38b7c3b6c4a7c13ebb2bcbc37eb2723dbd6
+
+COCOAPODS: 1.11.3

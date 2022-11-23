@@ -1,0 +1,3 @@
+fragment PhoneFragment on Phone {
+    fullPhoneNumber
+}

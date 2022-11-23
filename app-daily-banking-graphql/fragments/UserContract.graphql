@@ -1,0 +1,7 @@
+fragment UserContractFragment on Contract {
+    name,
+    contractId,
+    signedAt,
+    acceptedAt,
+    uploadedAt,
+}

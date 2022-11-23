@@ -1,0 +1,41 @@
+disabled_rules: # rule identifiers to exclude from running
+  - nesting
+  - function_body_length
+  - cyclomatic_complexity
+  - file_length
+
+included: # needed for CircleCI
+  - BankAPI
+  - DailyBanking
+  - DesignKit
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - BankAPI/GraphQL
+  - DailyBanking/Tests
+  - DailyBanking/UITests
+
+identifier_name:
+  excluded:
+    - id
+
+line_length:
+  warning: 140
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_interpolated_strings: true
+  ignores_urls: true
+
+type_name:
+  max_length: # warning and error
+    warning: 60
+    error: 80
+
+custom_rules:
+  basetestcase_instead_xctestcase: # rule identifier
+    included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+    name: "Combine receive(on: DispatchQueue.global) concurrency warning" # rule name. optional.
+    regex: "receive.*on.*DispatchQueue.*global" # matching pattern
+    capture_group: 0 # number of regex capture group to highlight the rule violation at. optional.
+    message: "`receive(on: DispatchQueue.global)`operator uses concurrent execution, which should be avoided in reactive streams"
+    severity: warning # violation severity. optional.

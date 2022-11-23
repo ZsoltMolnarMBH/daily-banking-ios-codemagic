@@ -1,0 +1,5 @@
+query getKycToken {
+    getKycToken {
+        sdkToken
+    }
+}

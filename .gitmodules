@@ -1,0 +1,3 @@
+[submodule "app-daily-banking-graphql"]
+	path = app-daily-banking-graphql
+	url = git@github.com:Magyar-Bankholding-Zrt/app-daily-banking-graphql.git

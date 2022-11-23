@@ -1,0 +1,2234 @@
+"account_closing_cancelled_toast" = "Bankszámla megszüntetése megszakítva";
+
+"account_closing_documents_title" = "Mentse le a dokumentumait, hogy a bankszámla megszüntetése után is elérje őket!";
+
+"account_closing_reason_bad_support" = "Rossz tapasztalatom volt az ügyfélszolgálattal.";
+
+"account_closing_reason_comment_title" = "Más oka van? Írja meg nekünk!";
+
+"account_closing_reason_dissatisfied" = "Elégedetlen vagyok az appal.";
+
+"account_closing_reason_found_better" = "Jobb bankszámlát találtam máshol.";
+
+"account_closing_reason_page_title" = "Sajnáljuk, hogy el kell búcsúznunk!";
+
+"account_closing_reason_title" = "Elmondaná, hogy miért szünteti meg a bankszámlát?";
+
+"account_closing_reason_too_expensive" = "Túl drága a szolgáltatás.";
+
+"account_closing_start_confirmation_button" = "Megszüntet";
+
+"account_closing_start_confirmation_text" = "A megszüntetés után nem indíthat és fogadhat tranzakciókat.\n\nA regisztrációját is töröljük. Ha később új bankszámlát szeretne nyitni, újra kell regisztrálnia.";
+
+"account_closing_start_confirmation_title" = "Biztosan megszünteti a bankszámlát?";
+
+"account_closing_state_closing_statement_download" = "Számlakivonat letöltése";
+
+"account_closing_state_text_1" = "A megszüntetéssel kapcsolatos tudnivalókat e-mailben küldjük el Önnek.";
+
+"account_closing_state_text_2" = "Az utolsó havi számlakivonatát és a Megszüntetési nyilatkozatot 60 napon belül töltheti le az appból.";
+
+"account_closing_state_title" = "A bankszámlát hamarosan megszüntetjük.";
+
+"account_closing_state_withdrawal_statement_download" = "Nyilatkozat letöltése";
+
+"account_closing_title" = "Bankszámla megszüntetése";
+
+"account_closing_transfer_title" = "Hová utaljuk a bankszámlán lévő összeget, a beérkező visszatérítéseket, jóváírásokat?";
+
+"account_closing_withdrawal_cancellation_text_1" = "Nyissa meg, olvassa el és írja alá az Elállási nyilatkozatot!";
+
+"account_closing_withdrawal_cancellation_text_2" = "A nyilatkozat aláírása után elindítjuk a bankszámla megszüntetését.";
+
+"account_closing_withdrawal_cancellation_title" = "Elállási nyilatkozat aláírása";
+
+"account_closing_withdrawal_sign" = "Aláírás";
+
+"account_closing_withdrawal_statement_preview_cancellation_title" = "Elállási nyilatkozat";
+
+"account_closing_withdrawal_statement_preview_sign" = "Nyilatkozat aláírása";
+
+"account_closing_withdrawal_statement_preview_termination_title" = "Megszüntetési nyilatkozat";
+
+"account_closing_withdrawal_statement_preview_title" = "Elállási nyilatkozat";
+
+"account_closing_withdrawal_termination_text_1" = "Nyissa meg, olvassa el és írja alá a Megszüntetési nyilatkozatot!";
+
+"account_closing_withdrawal_termination_text_2" = "A nyilatkozat aláírása után elindítjuk a bankszámla megszüntetését.";
+
+"account_closing_withdrawal_termination_title" = "Megszüntetési nyilatkozat aláírása";
+
+"account_closing_withdrawal_text_1" = "Nyissa meg, olvassa el és írja alá az Elállási nyilatkozatot!";
+
+"account_closing_withdrawal_text_2" = "A nyilatkozat aláírása után elindítjuk a bankszámla megszüntetését.";
+
+"account_closing_withdrawal_title" = "Elállási nyilatkozat aláírása";
+
+"account_daily_limit_info_markdown" = "##### Napi átutalási limit\nAz egyszeri, azaz nem állandó átutalások (pl. átutalással történő vásárlások) napi limitje.\n\nEseti átutalásait minden nap csak a megadott limit eléréséig teljesítjük.";
+
+"account_details_account_closing_button" = "Bankszámla megszüntetése";
+
+"account_details_account_closing_confirmation_button" = "Megszüntetem";
+
+"account_details_account_closing_confirmation_text" = "A megszüntetés után nem indíthat és fogadhat tranzakciókat.\n\nA regisztrációját is töröljük. Ha később új bankszámlát szeretne nyitni, újra kell regisztrálnia.";
+
+"account_details_account_closing_confirmation_title" = "Biztosan megszünteti a bankszámlát?";
+
+/* Account Details */
+"account_details_available_balance" = "Elérhető egyenleg";
+
+/* Secondary Id Addition Confirmation */
+"account_details_confirmation_add_phone_title" = "Elindítottuk a másodlagos azonosító hozzáadását.";
+
+/* DEPRECATED */
+"account_details_info_arrears_balance_title" = "Tartozások összege";
+
+/* DEPRECATED */
+"account_details_info_arrears_description" = "Ezzel az összeggel tartozik nekünk. Ha lesz elég pénz a bankszámláján, az összeget levonjuk az elérhető egyenlegéből.";
+
+/* DEPRECATED, DEPRECATED */
+"account_details_info_arrears_title" = "Tartozások összege";
+
+/* DEPRECATED */
+"account_details_info_blocked_balance_description" = "Ezt a pénzt már elköltötte (pl. bankkártyás fizetéssel, átutalással). Általában pár napig tart, amíg mindent elszámolunk és lekönyvelünk, addig levontuk az elérhető egyenlegéből és zároltuk az összeget.";
+
+/* DEPRECATED */
+"account_details_info_blocked_balance_title" = "Zárolt összeg";
+
+/* DEPRECATED */
+"account_details_info_booked_balance_description" = "Az az összeg, amit már ténylegesen elszámoltunk és lekönyveltünk a bankszámláján.";
+
+/* DEPRECATED */
+"account_details_info_booked_balance_title" = "Könyvelt egyenleg";
+
+"account_details_info_credit_line_description" = "Az a maximális hitelösszeg, amit az előzetesen megkötött szerződés alapján igénybe vehet a bankszámlájáról.";
+
+"account_details_info_credit_line_title" = "Folyószámlahitel-keret";
+
+/* DEPRECATED */
+"account_details_info_iban_description" = "Az Ön nemzetközi bankszámlaszáma, amit nemzetközi átutalásoknál használhat.";
+
+/* DEPRECATED */
+"account_details_info_iban_title" = "IBAN";
+
+"account_details_info_markdown" = "##### Zárolt összeg\nEzt a pénzt már elköltötte (pl. bankkártyás fizetéssel, átutalással). Általában pár napig tart, amíg mindent elszámolunk és lekönyvelünk, addig levontuk az elérhető egyenlegéből és zároltuk az összeget.\n\n##### Könyvelt egyenleg\nAz az összeg, amit már ténylegesen elszámoltunk és lekönyveltünk a bankszámláján.\n\n##### Tartozások összege\nEzzel az összeggel tartozik nekünk. Ha lesz elég pénz a bankszámláján, az összeget levonjuk az elérhető egyenlegéből.\n\n##### IBAN\nAz Ön nemzetközi bankszámlaszáma, amit nemzetközi átutalásoknál használhat.\n\n##### SWIFT\nA SWIFT vagy BIC bankunk nemzetközi azonosítója, amit nemzetközi átutalásoknál használhat.";
+
+/* Account Details Info */
+"account_details_info_screen_title" = "Részletek";
+
+/* DEPRECATED */
+"account_details_info_swift_description" = "A SWIFT vagy BIC bankunk nemzetközi azonosítója, amit nemzetközi átutalásoknál használhat.";
+
+/* DEPRECATED */
+"account_details_info_swift_title" = "SWIFT";
+
+/* DEPRECATED, DEPRECATED */
+"account_details_label_account_number" = "Bankszámlaszám";
+
+"account_details_label_arrears_balance" = "Tartozások összege";
+
+"account_details_label_blocked_balance" = "Zárolt összeg";
+
+"account_details_label_booked_balance" = "Könyvelt egyenleg";
+
+"account_details_label_iban" = "IBAN";
+
+"account_details_label_swift" = "SWIFT";
+
+/* DEPRECATED */
+"account_details_limited_account_info_description_1" = "A nem eSzemélyivel nyitott bankszámlákat biztonsági okokból korlátoznunk kell.";
+
+/* DEPRECATED */
+"account_details_limited_account_info_description_2" = "A korlátozás jelenleg nem oldható fel, de folyamatosan fejlesztjük a szolgáltatásunkat, és értesítjük, amint korlátozás nélküli számlára válthat!";
+
+/* DEPRECATED, DEPRECATED */
+"account_details_limited_account_info_markdown" = "A  nem  eSzemélyivel  nyitott  bankszámlákat  biztonsági  okokból  korlátoznunk  kell.\n\nA korlátozás jelenleg nem oldható fel, de folyamatosan fejlesztjük a szolgáltatásunkat, és értesítjük, amint korlátozás nélküli számlára válthat!\n\n##### Mik a korlátozások?\n* Átutalás összege: max. 10 millió Ft / átutalás\n* Terület: csak EU-n belüli tranzakciók";
+
+/* DEPRECATED */
+"account_details_limited_account_info_restriction1" = "Átutalás összege: max. 10 millió Ft / átutalás";
+
+/* DEPRECATED */
+"account_details_limited_account_info_restriction2" = "Terület: csak EU-n belüli tranzakciók";
+
+/* DEPRECATED */
+"account_details_limited_account_info_restrictions_description" = "\t\u2022\tÁtutalás összege: max. 10 millió Ft / átutalás\n\t\u2022\tTerület: csak EU-n belüli tranzakciók";
+
+"account_details_limited_account_info_restrictions_title" = "Mik a korlátozások?";
+
+/* DEPRECATED, DEPRECATED, DEPRECATED */
+"account_details_screen_title" = "Bankszámla";
+
+"account_details_secondary_account_card_add_button" = "További azonosítók";
+
+"account_details_secondary_account_card_email_title" = "E-mail cím";
+
+"account_details_secondary_account_card_phone_title" = "Mobilszám";
+
+"account_details_secondary_account_id" = "Másodlagos azonosítók";
+
+"account_details_secondary_account_learning_card_button" = "Beállítás";
+
+"account_details_secondary_account_learning_card_description" = "Így elég lesz a mobilszámát vagy az e-mail címét megadnia annak, akitől átutalást vár.";
+
+"account_details_secondary_account_learning_card_title" = "Állítson be másodlagos azonosítót!";
+
+"account_details_secondary_bottom_sheet_email_title" = "E-mail cím";
+
+"account_details_secondary_bottom_sheet_other_secondary_ids" = "További azonosítók";
+
+"account_details_secondary_bottom_sheet_phone_title" = "Mobilszám";
+
+"account_details_secondary_bottom_sheet_tax_id_number_title" = "Adóazonosító jel";
+
+/* Account Details Secondary Id Bottom Sheet */
+"account_details_secondary_bottom_sheet_title" = "Másodlagos azonosítók";
+
+"account_details_secondary_id_add_description" = "Egy másodlagos azonosító csak egyetlen bankszámlához tartozhat. Ha ezt az azonosítót máshol már használja, akkor a másik bankszámla mellől automatikusan törlődni fog.";
+
+/* Account Details Secondary Id Add */
+"account_details_secondary_id_add_title" = "%1$@ hozzáadása";
+
+/* DEPRECATED */
+"account_details_secondary_id_info_description_description" = "A mobilszámát és az e-mail címét is hozzáadhatja a bankszámlájához, ezeket hívjuk másodlagos azonosítóknak.\n\nHa beállít másodlagos azonosítót, bankszámlaszám helyett elég lesz a mobilszámát vagy az e-mail címét megadnia annak, akitől átutalást vár.";
+
+/* DEPRECATED */
+"account_details_secondary_id_info_description_title" = "Mi a másodlagos azonosító?";
+
+/* Account Details Secondary Id Info */
+"account_details_secondary_id_info_screen_title" = "Másodlagos azonosítók";
+
+/* DEPRECATED */
+"account_details_secondary_id_info_types_description" = "Jelenleg csak a számlanyitás során megadott mobilszámát vagy e-mail címét állíthatja be.";
+
+/* DEPRECATED */
+"account_details_secondary_id_info_types_title" = "Miket állíthat be másodlagos azonosítóként?";
+
+/* DEPRECATED */
+"account_details_secondary_id_privacy_policy_description" = "Hozzájárulok, hogy a Magyar Bankholding a nevem, a fizetési számlám IBAN-ját és a hozzárendelt másodlagos azonosítót átadja a központi adatbázist működtető szervezetnek. A szervezet ezeket az adataimat addig kezelheti, amíg a hozzájárulásomat vissza nem vonom, vagy amíg a rendszeres éves adatellenőrzés sikertelenül nem zárul.\n\nTovábbá hozzájárulok, hogy ezeket az adatokat a központi adatbázist működtető szervezet a pénzforgalmi szolgáltatások nyújtása, valamint a fizetési műveletek és azok kezdeményezésére irányuló kérelmek feldolgozása, elszámolása, teljesítése érdekében a fizetési műveletek feldolgozásában, elszámolásában és teljesítésében közreműködő pénzügyi intézmények és pénzügyi intézménynek nem minősülő pénzforgalmi szolgáltatók részére továbbítsa.";
+
+/* Account Details Secondary Id Info Privacy Pollicy */
+"account_details_secondary_id_privacy_policy_screen_title" = "GDPR nyilatkozat";
+
+"account_details_title_details" = "Részletek";
+
+"account_details_transaction_limit_set_limits" = "Limitek beállítása";
+
+"account_details_transaction_limit_title" = "További lehetőségek";
+
+"account_limit_daily_transfer_limit_limit_changed" = "Napi átutalási limit módosítva.";
+
+"account_limit_set_failed" = "A limit beállítása nem sikerült.";
+
+"account_opening_conditions" = "* Magyar állampolgárság\n* Érvényes magyar személyi igazolvány és lakcímkártya\n* 18 évesnél idősebb életkor\n* Saját magának nyitja a bankszámlát.\n* Havi 100 millió Ft-nál kisebb készpénzforgalmat tervez a bankszámlán.\n* Nem kiemelt közszereplő, nem hozzátartozója kiemelt közszereplőnek, és nem áll közeli kapcsolatban kiemelt közszereplővel.\n* Külföldi adóügyi illetőség esetén rendelkezik az adóügyi illetőséget alátámasztó okirattal és érvényes külföldi adószámmal.\n\nHa nem felel meg a feltételeknek, online nem nyithat bankszámlát nálunk.";
+
+"account_opening_conditions_condition_1" = "Magyar állampolgárság";
+
+"account_opening_conditions_condition_2" = "Érvényes magyar személyi igazolvány és lakcímkártya";
+
+"account_opening_conditions_condition_3" = "18 évesnél idősebb életkor";
+
+"account_opening_conditions_condition_4" = "Saját magának nyitja a bankszámlát.";
+
+"account_opening_conditions_condition_5" = "Havi 100 millió Ft-nál kisebb készpénzforgalmat tervez a bankszámlán.";
+
+"account_opening_conditions_condition_6" = "Nem kiemelt közszereplő, nem hozzátartozója kiemelt közszereplőnek, és nem áll közeli kapcsolatban kiemelt közszereplővel.";
+
+"account_opening_conditions_condition_7" = "Külföldi adóügyi illetőség esetén rendelkezik az adóügyi illetőséget alátámasztó okirattal és érvényes külföldi adószámmal.";
+
+"account_opening_conditions_title" = "Számlanyitás feltételei";
+
+"account_opening_conditions_warning_text" = "Ha nem felel meg a feltételeknek, online nem nyithat bankszámlát nálunk.";
+
+"account_opening_package_details_cash_withdrawal_description" = "ingyenes készpénzfelvétel / hónap";
+
+"account_opening_package_details_cash_withdrawal_name" = "2 db";
+
+"account_opening_package_details_description" = "0 Ft számlavezetési díj";
+
+"account_opening_package_details_feature_1" = "Átlátható díjszabás";
+
+"account_opening_package_details_feature_2" = "Virtuális bankkártya";
+
+"account_opening_package_details_feature_3" = "Apple Pay & Google Pay fizetés";
+
+"account_opening_package_details_feature_coming_soon" = "Hamarosan!";
+
+"account_opening_package_details_fee_description" = "számlavezetési díj";
+
+"account_opening_package_details_fee_name" = "0 Ft";
+
+"account_opening_package_details_info" = "Miért nincs több csomagunk?";
+
+"account_opening_package_details_more_details" = "További részletek";
+
+"account_opening_package_details_name" = "Lakossági forint számla";
+
+"account_opening_package_details_referral_description" = "ingyenes átutalás / hónap";
+
+"account_opening_package_details_referral_name" = "10 db";
+
+"account_opening_package_details_subtitle" = "Alap számlavezetési funkciók, egyszerűen kezelhető pénzügyek.";
+
+"account_opening_package_details_title" = "Számlacsomag kiválasztása";
+
+"account_opening_package_info_description" = "Az app még béta, ezért egyelőre nem választhat másik számlacsomagot.";
+
+"account_opening_package_info_title" = "Miért nincs több csomagunk?";
+
+"account_opening_package_more_details_conditions" = "Kondíciós lista";
+
+"account_opening_package_more_details_contract_sample" = "Szerződésminta";
+
+"account_opening_package_more_details_documents" = "Dokumentumok";
+
+"account_opening_package_more_details_privacy_notice" = "Adatkezelési tájékoztató";
+
+"account_opening_package_more_details_title" = "További részletek";
+
+"account_opening_start_page_description" = "Készítse elő a személyi igazolványát és a lakcímkártyáját, és kezdhetjük is!";
+
+"account_opening_start_page_step_1" = "Regisztráció";
+
+"account_opening_start_page_step_2" = "Számlacsomag kiválasztása";
+
+"account_opening_start_page_step_3" = "Fényképes azonosítás";
+
+"account_opening_start_page_step_4" = "Adatok megadása";
+
+"account_opening_start_page_step_5" = "Azonosítás";
+
+"account_opening_start_page_step_6" = "Nyilatkozatok elfogadása";
+
+"account_opening_start_page_step_7" = "Szerződés aláírása";
+
+/* Account opening */
+"account_opening_start_page_title" = "Nyisson bankszámlát pár egyszerű lépésben!";
+
+"account_opening_tax_residency_abroad_tax" = "Külföldi adószám";
+
+"account_opening_tax_residency_abroad_tax_error" = "Adja meg a külföldi adószámát!";
+
+"account_opening_tax_residency_add_country" = "További ország hozzáadása";
+
+"account_opening_tax_residency_delete_country" = "Ország törlése";
+
+"account_opening_tax_residency_title" = "Nyilatkozatok";
+
+"account_opening_tax_residency_type_abroad" = "Csak külföldön";
+
+"account_opening_tax_residency_type_description" = "Külföldi adóügyi illetőségnek számít, ha adózik Magyarországon kívül, vagy ha évente legalább 6 hónapot egy másik országban tölt.";
+
+"account_opening_tax_residency_type_hungary" = "Csak Magyarországon";
+
+"account_opening_tax_residency_type_hungary_abroad" = "Magyarországon és külföldön";
+
+"account_opening_tax_residency_type_title" = "Hol van adóügyi illetősége?";
+
+"account_package_details_title" = "Számlacsomag részletei";
+
+"account_setup_address_address" = "Cím";
+
+"account_setup_address_address_error" = "Adja meg a lakcímét!";
+
+"account_setup_address_address_hint" = "Pl.: 1034 Budapest, Bank utca 3., II. emelet 14.";
+
+"account_setup_address_city" = "Település";
+
+"account_setup_address_city_error" = "Adja meg a település nevét!";
+
+"account_setup_address_country" = "Ország";
+
+"account_setup_address_house_number" = "Házszám, emelet, ajtó, stb.";
+
+"account_setup_address_house_number_error" = "Adja meg a házszámot!";
+
+"account_setup_address_house_number_hint" = "Pl.: 3. II. emelet 14.";
+
+"account_setup_address_notification_is_address_same" = "A postázási címe ugyanez?";
+
+"account_setup_address_post_code" = "Irányítószám";
+
+"account_setup_address_post_code_and_city" = "Irányítószám és település";
+
+"account_setup_address_post_code_and_city_error" = "Kötelező mező. Kérjük adja meg az irányítószámát és a települése nevét.";
+
+"account_setup_address_post_code_and_city_hint" = "Pl.: 2534, Tát";
+
+"account_setup_address_post_code_error" = "Adja meg az irányítószámot!";
+
+"account_setup_address_street_name" = "Közterület neve";
+
+"account_setup_address_street_name_error" = "Adja meg a közterület nevét!";
+
+"account_setup_address_street_name_hint" = "Pl.: Gyöngyvirág utca";
+
+"account_setup_address_title" = "Lakcím";
+
+"account_setup_contacts_email" = "E-mail cím";
+
+"account_setup_contacts_email_error" = "Adja meg az e-mail címét!";
+
+"account_setup_contacts_phone_number" = "Mobilszám";
+
+"account_setup_contacts_title" = "Elérhetőségek";
+
+"account_setup_documents_address_card_number" = "Lakcímkártya száma";
+
+"account_setup_documents_address_card_number_error" = "Adja meg a lakcímkártyája számát!";
+
+"account_setup_documents_address_card_number_error_wrong_format" = "Helytelen lakcímkártya szám. Kérjük, módosítsa!";
+
+"account_setup_documents_number" = "Azonosító okmány száma";
+
+"account_setup_documents_number_error" = "Adja meg a személyi igazolványa számát!";
+
+"account_setup_documents_number_error_wrong_format" = "Helytelen személyi igazolvány szám. Kérjük, módosítsa!";
+
+"account_setup_documents_number_warning_expired" = "Lejárt a személyi igazolványa!";
+
+"account_setup_documents_title" = "Okmányok";
+
+"account_setup_documents_type" = "Azonosító okmány típusa";
+
+"account_setup_documents_validity" = "Érvényességi ideje";
+
+"account_setup_documents_validity_error" = "Adja meg a személyi igazolványa érvényességi idejét!";
+
+"account_setup_main_page_address" = "Lakcím";
+
+"account_setup_main_page_confirm_data" = "Adatok jóváhagyása";
+
+"account_setup_main_page_contacts" = "Elérhetőségek";
+
+"account_setup_main_page_description" = "Nézze át, hogy mindent jól rögzítettünk-e, és adja meg a hiányzó adatokat!";
+
+"account_setup_main_page_documents" = "Okmányok";
+
+"account_setup_main_page_personal_data" = "Személyes adatok";
+
+"account_setup_main_page_question" = "Helyesek az adatai?";
+
+/* Account setup */
+"account_setup_main_page_title" = "Adatok";
+
+"account_setup_personal_data_age_limit_error" = "Sajnos 18 éves kor alatt online nem nyithat bankszámlát.";
+
+"account_setup_personal_data_birth_first_name_error_required" = "Adja meg a születési utónevét!";
+
+"account_setup_personal_data_birth_first_name_title" = "Születési utónév";
+
+"account_setup_personal_data_birth_last_name_error_required" = "Adja meg a születési vezetéknevét!";
+
+"account_setup_personal_data_birth_last_name_title" = "Születési családnév";
+
+"account_setup_personal_data_birth_name_error_required" = "Kötelező mező. Kérjük, adja meg a születési nevét.";
+
+"account_setup_personal_data_birth_name_same_title" = "A születési neve ugyanez?";
+
+"account_setup_personal_data_birth_name_title" = "Születési név";
+
+"account_setup_personal_data_country_of_birth_error_required" = "Adja meg a születési országát!";
+
+"account_setup_personal_data_country_of_birth_title" = "Születési ország";
+
+"account_setup_personal_data_date_of_birth_error_age" = "Sajnos %1$d éves kor alatt online nem nyithat bankszámlát.";
+
+"account_setup_personal_data_date_of_birth_error_required" = "Adja meg a születési idejét!";
+
+"account_setup_personal_data_date_of_birth_title" = "Születési idő";
+
+"account_setup_personal_data_first_name_error_required" = "Adja meg az utónevét!";
+
+"account_setup_personal_data_first_name_title" = "Utónév";
+
+"account_setup_personal_data_last_name_error_required" = "Adja meg a családnevét!";
+
+"account_setup_personal_data_last_name_title" = "Családnév";
+
+"account_setup_personal_data_mothers_name_error_required" = "Adja meg az anyja születési nevét!";
+
+"account_setup_personal_data_mothers_name_title" = "Anyja születési neve";
+
+"account_setup_personal_data_nationality_title" = "Állampolgárság";
+
+"account_setup_personal_data_place_of_birth_error_required" = "Adja meg a születési helyét!";
+
+"account_setup_personal_data_place_of_birth_title" = "Születési hely";
+
+"account_setup_personal_data_title" = "Személyes adatok";
+
+"account_transaction_limit_daily_transfer_label" = "Napi átutalási limit";
+
+"account_transaction_limit_daily_transfer_limit_changed" = "Napi átutalási limit módosítva.";
+
+"account_transaction_limit_daily_transfer_max" = "Max. %1$@";
+
+"account_transaction_limit_daily_transfer_max_error" = "Legfeljebb %1$@-ot adjon meg!";
+
+"account_transaction_limit_daily_transfer_min_error" = "%1$@-nál nagyobb összeget adjon meg!";
+
+"account_transaction_limit_daily_transfer_title" = "Napi átutalási limit";
+
+/* DEPRECATED */
+"account_transaction_limit_info_daily_transfer_description" = "Az egyszeri, azaz nem állandó átutalások (pl. átutalással történő vásárlások) napi limitje.\n\nEseti átutalásait minden nap csak a megadott limit eléréséig teljesítjük.";
+
+/* DEPRECATED */
+"account_transaction_limit_info_daily_transfer_title" = "Napi átutalási limit";
+
+"account_transaction_limit_info_title" = "Limitek beállítása";
+
+"account_transaction_limit_start_page_daily_transfer_limit" = "Napi átutalási limit";
+
+"account_transaction_limit_start_page_title" = "Limitek beállítása";
+
+"alter_email_alter_button" = "Módosítás";
+
+"alter_email_title" = "Módosítás";
+
+"app_name" = "SuperApp powered by MKB";
+
+"app_reset_dialog_description" = "Az alaphelyzetbe állítás törli az app beállításait és az eszközön tárolt adatokat.";
+
+"app_reset_dialog_title" = "Biztosan alaphelyzetbe állítja az appot?";
+
+"bank_card_block_error_screen_subtitle" = "Próbálja újra!";
+
+"bank_card_block_error_screen_title" = "A bankkártya letiltása nem sikerült.";
+
+"bank_card_block_result_screen_button" = "Megrendelés";
+
+"bank_card_block_result_screen_success_description" = "Rendeljen új bankkártyát 0 Ft kibocsátási díjért!";
+
+"bank_card_block_result_screen_success_title" = "Bankkártya letiltva";
+
+"bank_card_block_screen_block_card_button" = "Bankkártya letiltása";
+
+"bank_card_block_screen_description" = "Ha csak átmenetileg függesztené fel a bankkártyát, lépjen vissza, és fagyassza be!";
+
+"bank_card_block_screen_first_point" = "A bankkártya azonnal megszűnik. Üzletekben, online és készpénzfelvételre sem lehet használni.";
+
+"bank_card_block_screen_markdown" = "Ha csak átmenetileg függesztené fel a bankkártyát, lépjen vissza, és fagyassza be!\n\n**Mi történik a letiltás után?**\n\n* A bankkártya azonnal megszűnik. Üzletekben, online és készpénzfelvételre sem lehet használni.\n\n* Új bankkártyát állítunk ki Önnek 0 Ft kibocsátási díjért.";
+
+/* Bank Card Block */
+"bank_card_block_screen_navigation_title" = "Bankkártya letiltása";
+
+"bank_card_block_screen_question" = "Mi történik a letiltás után?";
+
+"bank_card_block_screen_second_point" = "Új bankkártyát állítunk ki Önnek 0 Ft kibocsátási díjért.";
+
+"bank_card_block_screen_title" = "A letiltás végleges, nem vonható vissza!";
+
+"bank_card_credit_limit_info_markdown" = "Egyelőre az online költésekre nem tud limitet beállítani, mert az online felületeken nem fizethet a bankkártyájával.";
+
+"bank_card_details_blocked_card_status_description" = "Kérjük, jöjjön vissza később, vagy kérjen segítséget az ügyfélszolgálatunktól!";
+
+"bank_card_details_blocked_card_status_title" = "Hamarosan elkészül az új virtuális kártyája.";
+
+"bank_card_details_disable_card" = "Bankkártya letiltása";
+
+"bank_card_details_freeze_card" = "Bankkártya\nbefagyasztása";
+
+"bank_card_details_limits_check" = "Limitek ellenőrzése";
+
+"bank_card_details_no_card_data_description" = "Kérjen segítséget az ügyfélszolgálatunktól!";
+
+"bank_card_details_no_card_data_title" = "A bankkártya kész, de az adatait nem tudjuk megjeleníteni.";
+
+"bank_card_details_online_security_settings" = "Online fizetési beállítások";
+
+"bank_card_details_other_options" = "Egyéb lehetőségek";
+
+"bank_card_details_reorder_in_progress_description" = "Ez eltarthat egy darabig. Ha 24 órán belül sem látja a bankkártya adatait, kérjen segítséget az ügyfélszolgálatunktól!";
+
+"bank_card_details_reorder_in_progress_title" = "Elindítottuk a bankkártya gyártását.";
+
+"bank_card_details_set_limits" = "Limitek beállítása";
+
+"bank_card_details_show_more_details" = "Bankkártya adatai";
+
+"bank_card_details_show_pin_code" = "PIN kód";
+
+"bank_card_details_state_banned" = "LETILTVA";
+
+"bank_card_details_state_blocked" = "BLOKKOLVA";
+
+"bank_card_details_state_blocked_by_bank_info" = "Bankkártya blokkolva";
+
+/* DEPRECATED - remove this */
+"bank_card_details_state_blocked_info_button" = "Megrendelés";
+
+/* DEPRECATED - remove this */
+"bank_card_details_state_blocked_info_description" = "Csak a postázási címét és egy PIN kódot kell megadnia.";
+
+/* DEPRECATED - remove this */
+"bank_card_details_state_blocked_info_title" = "Rendeljen új bankkártyát!";
+
+"bank_card_details_state_blocked_temp" = "ÁTMENETILEG BLOKKOLVA";
+
+"bank_card_details_state_blocked_temp_info_description" = "Nem fizethet, nem vehet fel készpénzt, és blokkoljuk a bankkártyához tartozó előfizetéseket és automatikus fizetéseket is.";
+
+"bank_card_details_state_blocked_temp_info_title" = "Bankkártya átmenetileg blokkolva";
+
+/* DEPRECATED - remove this, DEPRECATED - remove this, DEPRECATED - remove this */
+"bank_card_details_state_frozen" = "BEFAGYASZTVA";
+
+"bank_card_details_state_frozen_into_description" = "Ha újra használni szeretné, koppintson a Befagyasztás feloldására!";
+
+"bank_card_details_state_frozen_into_title" = "Bankkártya befagyasztva";
+
+"bank_card_details_state_in_progress" = "FOLYAMATBAN";
+
+/* Bank card details */
+"bank_card_details_title" = "Bankkártya adatai";
+
+"bank_card_details_unfreeze_card" = "Befagyasztás\nfeloldása";
+
+"bank_card_dialog_disappears_within_seconds" = "**%1$@** másodpercen belül eltűnik";
+
+"bank_card_dialog_disappears_within_seconds_ios" = "**%1$@** másodpercen belül eltűnik";
+
+"bank_card_estimated_delivery" = "Várható kézbesítés";
+
+"bank_card_freezing_unlocked" = "Befagyasztás feloldva.";
+
+"bank_card_has_been_frozen" = "Bankkártya befagyasztva.";
+
+"bank_card_info_card_number" = "Bankkártyaszám";
+
+"bank_card_info_card_number_copied_to_clipboard" = "Bankkártyaszám a vágólapra másolva";
+
+"bank_card_info_cvc_code" = "CVC kód";
+
+"bank_card_info_exp_date" = "Lejárat dátuma";
+
+"bank_card_info_owner_name" = "Kártyabirtokos neve";
+
+"bank_card_info_title" = "Bankkártya adatai";
+
+"bank_card_limit_cash_withdrawal_changed" = "Napi készpénzfelvételi limit módosítva.";
+
+"bank_card_limit_cash_withdrawal_daly_sum" = "Napi készpénzfelvétel";
+
+"bank_card_limit_cash_withdrawal_max" = "Max. %1$@";
+
+"bank_card_limit_cash_withdrawal_max_error" = "Legfeljebb %1$@-ot adjon meg!";
+
+"bank_card_limit_cash_withdrawal_min_error" = "Legalább %1$@-ot adjon meg!";
+
+"bank_card_limit_cash_withdrawal_title" = "Készpénzfelvételi limit";
+
+"bank_card_limit_credit_card_auto_correct_daily" = "A napi online költés emelésével ezt a limitet is automatikusan megemeljük.";
+
+"bank_card_limit_credit_card_auto_correct_online" = "A napi összes költés csökkentésével ezt a limitet is automatikusan lecsökkentjük";
+
+"bank_card_limit_credit_card_daily_limit_changed" = "Napi összes költési limit módosítva.";
+
+"bank_card_limit_credit_card_daily_online_limit_changed" = "Napi online költési limit módosítva.";
+
+"bank_card_limit_credit_card_daily_sum" = "Napi összes költés";
+
+"bank_card_limit_credit_card_limit_changed" = "Költési limit módosítva.";
+
+"bank_card_limit_credit_card_max" = "Max. %1$@";
+
+"bank_card_limit_credit_card_max_error" = "Legfeljebb %1$@-ot adjon meg!";
+
+/* DEPRECATED */
+"bank_card_limit_credit_card_min_error" = "0 Ft-nál nagyobb összeget adjon meg!";
+
+"bank_card_limit_credit_card_min_error_token" = "Legalább %1$@-ot adjon meg!";
+
+/* DEPRECATED */
+"bank_card_limit_credit_card_online_info_description" = "Egyelőre az online költésekre nem tud limitet beállítani, mert az online felületeken nem fizethet a bankkártyájával.";
+
+/* DEPRECATED */
+"bank_card_limit_credit_card_online_info_title" = "Napi online költés";
+
+"bank_card_limit_credit_card_online_sum" = "Napi online költés";
+
+"bank_card_limit_credit_card_title" = "Bankkártyás költési limit";
+
+"bank_card_limit_set_failed" = "A limit beállítása nem sikerült.";
+
+"bank_card_limit_start_page_cash_withdrawal_limit" = "Készpénzfelvételi limit";
+
+"bank_card_limit_start_page_credit_card_limit" = "Bankkártyás költési limit";
+
+"bank_card_limit_start_page_title" = "Limitek beállítása";
+
+"bank_card_mastercard_name" = "Mastercard World Elite";
+
+"bank_card_next_step_pin" = "A PIN kód beállítása következik.";
+
+"bank_card_order" = "Megrendelés";
+
+"bank_card_order_card" = "Bankkártya rendelés";
+
+"bank_card_order_new_card" = "Megrendelés";
+
+"bank_card_order_new_card_description" = "Csak a postázási címét és egy PIN kódot kell megadnia.";
+
+"bank_card_order_new_card_title" = "Rendeljen új bankkártyát!";
+
+"bank_card_pin_code_set_failed_description" = "Hamarosan létrehozunk Önnek egyet, és feltöltjük a Bankkártya / PIN kód megjelenítése menübe. Ott tudja majd megtekinteni.\n\nKérjük, ezt a PIN kódot használja!";
+
+"bank_card_pin_code_set_failed_title" = "A PIN kód beállítása nem sikerült.";
+
+"bank_card_pin_code_title" = "PIN kód";
+
+"bank_card_posting_address" = "Postázási cím";
+
+/* DEPRECATED */
+"bank_card_posting_address_info_description" = "Az app még béta, ezért egyelőre csak a számlanyitás során megadott lakcímére kérheti a bankkártya postázását.";
+
+/* DEPRECATED */
+"bank_card_posting_address_info_markdown" = "Az app még béta, ezért egyelőre csak a számlanyitás során megadott lakcímére kérheti a bankkártya postázását.";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder" = "Bankkártya rendelés";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder_acion_button_title" = "Megrendelés";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder_action_button_title" = "Megrendelés";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder_address_info_body" = "Az app még béta, ezért egyelőre csak a számlanyitás során megadott lakcímére kérheti a bankkártya postázását.";
+
+/* Bank Card Reorder */
+"bank_card_reorder_address_info_screen_title" = "Postázási cím";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder_address_section_title" = "Postázási cím";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder_bottom_title" = "A PIN kód beállítása következik.";
+
+/* DEPRECATED - remove this, DEPRECATED - remove this */
+"bank_card_reorder_cost" = "Bankkártya kibocsátási díj";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder_cost_section_subtitle" = "0 Ft";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder_cost_section_title" = "Bankkártya kibocsátási díj";
+
+/* DEPRECATED - remove this */
+"bank_card_reorder_delivery_date_section_title" = "Várható kézbesítés";
+
+"bank_card_reorder_error_description" = "Kérjük, kezdje újra!";
+
+"bank_card_reorder_error_title" = "A bankkártya megrendelése nem sikerült.";
+
+"biometry_faceid_setup_subtitle1" = "Az engedélyezés után arcfelismeréssel is beléphet az appba és jóváhagyhatja a tranzakciókat.";
+
+"biometry_faceid_setup_subtitle2" = "(Később is engedélyezheti.)";
+
+"biometry_faceid_setup_title" = "Engedélyezi a Face ID-t?";
+
+"biometry_fingerprint_setup_info_button_text" = "Mások ujjlenyomata is be van állítva a készüléken?";
+
+"biometry_fingerprint_setup_subtitle" = "Az engedélyezés után ujjlenyomattal is beléphet az appba és jóváhagyhatja a tranzakciókat.\u000A\u000A(Később is engedélyezheti.)";
+
+"biometry_fingerprint_setup_subtitle1" = "Az engedélyezés után ujjlenyomattal is beléphet az appba és jóváhagyhatja a tranzakciókat.";
+
+"biometry_fingerprint_setup_subtitle2" = "(Később is engedélyezheti.)";
+
+"biometry_fingerprint_setup_title" = "Engedélyezi a biometrikus azonosítást?";
+
+"biometry_locked_alert_text" = "Adja meg a jelkódját a zárolás feloldásához!";
+
+"biometry_locked_alert_title" = "Biometrikus azonosítás zárolva";
+
+"biometry_multiple_faceid_info_subtitle_ios" = "Ha pl. egy családtagja vagy ismerőse arcát is beállította, akkor ő is beléphet az appba és jóváhagyhatja a tranzakciókat.";
+
+"biometry_multiple_faceid_info_subtitle2_ios" = "Kérjük, ezt vegye figyelembe, mielőtt engedélyezi az arcfelismeréssel (Face ID) történő azonosítást!";
+
+"biometry_multiple_faceid_info_title" = "Mások arca is be van állítva a készüléken?";
+
+"biometry_multiple_touch_info_subtitle" = "Ha pl. egy családtagja vagy ismerőse ujjlenyomatát is beállította, akkor ő is beléphet az appba és jóváhagyhatja a tranzakciókat.\n\nKérjük, ezt vegye figyelembe, mielőtt engedélyezi az ujjlenyomattal történő azonosítást!";
+
+"biometry_multiple_touch_info_subtitle_ios" = "Ha pl. egy családtagja vagy ismerőse ujjlenyomatát is beállította, akkor ő is beléphet az appba és jóváhagyhatja a tranzakciókat.";
+
+"biometry_multiple_touch_info_subtitle2_ios" = "Kérjük, ezt vegye figyelembe, mielőtt engedélyezi az ujjlenyomattal (Touch ID) történő azonosítást!";
+
+"biometry_multiple_touch_info_title" = "Mások ujjlenyomata is be van állítva a készüléken?";
+
+"biometry_setup_disabled_faceid_info_title" = "Nyissa meg a készüléke beállításait, és kapcsolja be a Face ID-t!";
+
+"biometry_setup_disabled_info_title" = "Nyissa meg a készüléke beállításait, és kapcsolja be a Biometrikus azonosítást!";
+
+"biometry_setup_disabled_touchid_info_title" = "Nyissa meg a készüléke beállításait, és kapcsolja be a Touch ID-t!";
+
+/* BiometrySetup */
+"biometry_setup_header_title" = "Biometria beállítása";
+
+"biometry_setup_info_button_text" = "Mi az a biometrikus azonosítás?";
+
+"biometry_setup_info_subtitle1" = "Ujjlenyomattal történő azonosítás.";
+
+"biometry_setup_info_subtitle1_ios" = "Ujjlenyomattal (Touch ID) vagy arcfelismeréssel (Face ID) történő azonosítás.";
+
+"biometry_setup_info_subtitle2" = "A készülékén beállított ujjlenyomatot nem tároljuk el, és kizárólag az Ön azonosítására használjuk, amikor belép az appba vagy tranzakciót hagy jóvá.";
+
+"biometry_setup_info_subtitle2_ios" = "A készülékén beállított ujjlenyomatot vagy arcot nem tároljuk el, és kizárólag az Ön azonosítására használjuk, amikor belép az appba vagy tranzakciót hagy jóvá.";
+
+"biometry_setup_info_subtitle3" = "A biometrikus azonosítást bármikor be- vagy kikapcsolhatja a készülékén.";
+
+"biometry_setup_info_title" = "Mi az a biometrikus azonosítás?";
+
+"biometry_setup_open_settings" = "Beállítások megnyitása";
+
+"biometry_setup_subtitle" = "Biometrikus azonosítással gyorsabban és biztonságosabban léphet be az appba és hagyhatja jóvá a tranzakciókat.";
+
+"biometry_setup_title" = "Kapcsolja be a készüléke beállításaiban a biometrikus azonosítást!";
+
+"biometry_touchid_setup_title" = "Engedélyezi a Touch ID-t?";
+
+"block_bank_card_result_screen_button" = "Megrendelés";
+
+"block_bank_card_result_screen_success_description" = "Rendeljen új bankkártyát 0 Ft kibocsátási díjért!";
+
+"block_bank_card_result_screen_success_title" = "Bankkártya letiltva";
+
+"block_bank_card_screen_block_card_button" = "Bankkártya letiltása";
+
+"block_bank_card_screen_description" = "Ha csak átmenetileg függesztené fel a bankkártyát, lépjen vissza, és fagyassza be!";
+
+"block_bank_card_screen_first_point" = "A bankkártya azonnal megszűnik. Üzletekben, online és készpénzfelvételre sem lehet használni.";
+
+"block_bank_card_screen_question" = "Mi történik a letiltás után?";
+
+"block_bank_card_screen_second_point" = "Új bankkártyát állítunk ki Önnek 0 Ft kibocsátási díjért.";
+
+/* Block Bank Card */
+"block_bank_card_screen_title" = "A letiltás végleges, nem vonható vissza!";
+
+/* Block Bank Card */
+"blocking_force_update_subtitle" = "Fontos fejlesztéseket hajtottunk végre az appon, ezért a jelenlegi verzió már nem támogatott.";
+
+"blocking_force_update_title" = "Frissítse az appot!";
+
+"card_transaction_card_in_use_title" = "Használt bankkártya";
+
+"card_transaction_decline_account_limit" = "Limittúllépés";
+
+"card_transaction_decline_balance_low" = "Fedezethiány";
+
+"card_transaction_decline_card_blocked" = "Bankkártya letiltva";
+
+"card_transaction_decline_card_expired" = "Lejárt bankkártya";
+
+"card_transaction_decline_card_frozen" = "Bankkártya befagyasztva";
+
+"card_transaction_decline_card_suspended" = "Bankkártya letiltva";
+
+"card_transaction_decline_cvv_incorrect" = "Helytelen CVC kód";
+
+"card_transaction_decline_expiration_incorrect" = "Helytelen bankkártyalejárati dátum";
+
+"card_transaction_decline_internal_error" = "Technikai probléma. Próbálja újra!";
+
+"card_transaction_decline_pin_invalid" = "Helytelen PIN kód";
+
+"card_transaction_decline_pin_tries_exceed" = "3x helytelenül megadott PIN kód";
+
+"card_transaction_details_pending_description" = "Zárolt";
+
+"card_transaction_details_pending_description_details" = "Az elérhető egyenlegéből már levontuk az összeget. Pár napig eltarthat, amíg megérkezik az elfogadóhelyhez.";
+
+"card_transaction_internal_error_downtime" = "Technikai probléma. Próbálja újra később!";
+
+"card_transaction_masked_pan_number" = "**** **** **** %1$@";
+
+"card_transaction_merchant_data_title" = "Elfogadóhely adatai";
+
+"common_accept" = "Elfogadom";
+
+"common_account_number_copied_to_clipboard" = "Bankszámlaszám a vágólapra másolva";
+
+"common_account_type_retail_huf" = "Lakossági forint számla";
+
+"common_add" = "Hozzáadás";
+
+"common_all" = "Összes";
+
+"common_all_right" = "Rendben";
+
+"common_approve" = "Jóváhagyom";
+
+/* Error */
+"common_auth_error_dialog_retry_android" = "Próbálja újra <b>%1$d perc</b> múlva!";
+
+"common_beta_info_markdown" = "Az app még béta, ezért bizonyos funkciók hiányoznak belőle.\n\nFolyamatosan fejlesztjük az appot, és értesíteni fogjuk, amint újabb funkciók is elérhetők lesznek.";
+
+"common_birth_name" = "Születési név";
+
+/* Common */
+"common_can_we_help" = "Segíthetünk?";
+
+"common_cancel" = "Mégsem";
+
+"common_close" = "Bezárás";
+
+/* TODO set final contact email */
+"common_contact_email" = "SuperApp@magyarbankholding.hu";
+
+/* TODO set final contact phone number */
+"common_contact_phone" = "+36 00 123 4567";
+
+/* TODO set final contact phone number */
+"common_continue" = "Folytatás";
+
+"common_country" = "Ország";
+
+"common_data_not_editable" = "Ez az adat nem szerkeszthető!";
+
+"common_date_of_birth" = "Születési idő";
+
+"common_decline" = "Elutasítom";
+
+"common_documents" = "Okmányok";
+
+"common_enable" = "Engedélyezés";
+
+"common_error_check_network" = "Ellenőrizze az internetkapcsolatot!";
+
+"common_error_email_client_not_found_description" = "Írjon a SuperApp@magyarbankholding.hu címre, vagy töltsön le egy e-mail klienst!";
+
+"common_error_email_client_not_found_title" = "A készüléken nincs e-mail kliens.";
+
+"common_error_general" = "Sajnos valamilyen hiba történt.";
+
+"common_error_retry_after_android" = "Próbálja újra %1$@ múlva!";
+
+"common_error_retry_after_ios" = "Próbálja újra **%1$@** múlva!";
+
+/* Error */
+"common_error_unexpected" = "Váratlan hiba történt";
+
+"common_error_wrong_email" = "Helytelen e-mail cím. Kérjük, módosítsa!";
+
+"common_error_wrong_format" = "Nem megfelelő formátum";
+
+/* Error */
+"common_error_wrong_number" = "Helytelen mobilszám. Kérjük, módosítsa!";
+
+"common_first_name" = "Utónév";
+
+"common_following" = "Következő";
+
+"common_generic_error_contact_us" = "Kérjük, vegye fel velünk a kapcsolatot!";
+
+"common_generic_error_description" = "Kérjük, próbálja újra!";
+
+"common_generic_error_retry" = "Sajnos valamilyen hiba történt. Próbálja újra!";
+
+"common_generic_error_title" = "Sajnos valamilyen hiba történt.";
+
+"common_help_request" = "Segítséget kérek";
+
+"common_iban_copied_to_clipboard" = "IBAN a vágólapra másolva.";
+
+"common_last_name" = "Családnév";
+
+"common_limited_account" = "Korlátozott bankszámla";
+
+"common_mothers_birthname" = "Anyja születési neve";
+
+"common_nationality" = "Állampolgárság";
+
+"common_next" = "Tovább";
+
+"common_no" = "Nem";
+
+/* Common */
+"common_not_available_yet" = "A funkció még nem érhető el.";
+
+"common_place_of_birth" = "Születési hely";
+
+"common_please_retry" = "Próbálja újra!";
+
+"common_please_select" = "Kérjük válasszon!";
+
+"common_please_wait" = "Kérjük várjon…";
+
+"common_previous" = "Előző";
+
+"common_retry" = "Újra";
+
+"common_search" = "Keresés";
+
+"common_search_no_result" = "Nincs találat. Próbáljon máshogy rákeresni!";
+
+"common_set_it_up" = "Beállítás";
+
+"common_skip" = "Kihagyás";
+
+"common_start_again" = "Újrakezdem";
+
+"common_try_again" = "Újrapróbálom";
+
+"common_turn_on" = "Bekapcsolás";
+
+"common_where_to_find" = "Hol találom?";
+
+"common_yes" = "Igen";
+
+"consents_conditions_conditions" = "Megnyitottam, elolvastam és elfogadom a Kondíciós listát.";
+
+"consents_conditions_conditions_document_title" = "Kondíciós lista";
+
+"consents_conditions_conditions_ios" = "Megnyitottam, elolvastam és elfogadom a {Kondíciós listát}.";
+
+"consents_conditions_conditions_link" = "Kondíciós listát";
+
+"consents_conditions_conditions_md" = "Megnyitottam, elolvastam és elfogadom a [Kondíciós listát](condition_list).";
+
+"consents_conditions_description" = "Nyissa meg, olvassa el és fogadja el a bankszámlához kapcsolódó dokumentumokat!";
+
+"consents_conditions_privacy_policy" = "Megnyitottam, elolvastam és elfogadom az Adatkezelési tájékoztatót.";
+
+"consents_conditions_privacy_policy_document_title" = "Adatkezelési tájékoztató";
+
+"consents_conditions_privacy_policy_ios" = "Megnyitottam, elolvastam és elfogadom az {Adatkezelési tájékoztatót}.";
+
+"consents_conditions_privacy_policy_link" = "Adatkezelési tájékoztatót";
+
+"consents_conditions_privacy_policy_md" = "Megnyitottam, elolvastam és elfogadom az [Adatkezelési tájékoztatót](privacy_policy).";
+
+"consents_conditions_terms" = "Megnyitottam, elolvastam és elfogadom a Üzletszabályzatot.";
+
+"consents_conditions_terms_document_title" = "Üzletszabályzat";
+
+"consents_conditions_terms_ios" = "Megnyitottam, elolvastam és elfogadom az {Üzletszabályzatot}.";
+
+"consents_conditions_terms_link" = "Üzletszabályzatot";
+
+"consents_conditions_terms_md" = "Megnyitottam, elolvastam és elfogadom az [Üzletszabályzatot](conditions_terms).";
+
+"consents_kyc_survey_deposit_plan_amount_title" = "Havonta kb. mekkora összeget?";
+
+"consents_kyc_survey_deposit_plan_title" = "Tervez havi szinten készpénzt befizetni a bankszámlára?";
+
+"consents_kyc_survey_incoming_source_other" = "Egyéb forrás";
+
+"consents_kyc_survey_incoming_source_other_title" = "Milyen egyéb forrásból?";
+
+"consents_kyc_survey_incoming_source_salary" = "Munkabér";
+
+"consents_kyc_survey_incoming_source_title" = "Várhatóan milyen forrásokból érkezik majd pénz a bankszámlára?";
+
+"consents_kyc_survey_plan_interval_both" = "%1$@ - %2$@";
+
+"consents_kyc_survey_plan_interval_first" = "Több mint %1$@";
+
+"consents_kyc_survey_plan_selector_default" = "Kérjük válasszon";
+
+"consents_kyc_survey_title" = "Ügyfélismereti kérdőív";
+
+"consents_kyc_survey_transfer_plan_amount_title" = "Havonta kb. mekkora összeget?";
+
+"consents_kyc_survey_transfer_plan_title" = "Tervez havi szinten utalni a bankszámláról?";
+
+"consents_start_page_info_description" = "Tegye meg a szükséges nyilatkozatokat, és válaszoljon az ügyfélismereti kérdőív kérdéseire!";
+
+"consents_start_page_info_title" = "Nyilatkozatok és ügyfélismereti kérdőív";
+
+"consents_start_page_kyc_survey" = "Ügyfélismereti kérdőív (3)";
+
+"consents_start_page_open_contract" = "Tovább a szerződés aláírásához";
+
+"consents_start_page_statements" = "Nyilatkozatok (5)";
+
+/* Consents */
+"consents_start_page_title" = "Ügyfélismeret";
+
+"consents_statements_pep_description" = "Kiemelt közszereplők a fontos közfeladatot ellátó személyek, pl. a kormánytagok, az országgyűlési képviselők, illetve a pártok, az állami vállalatok és a nemzetközi szervezetek vezetői.";
+
+"consents_statements_pep_error" = "Sajnos ebben az esetben online nem nyithat bankszámlát.";
+
+"consents_statements_pep_title" = "Ön, hozzátartozója vagy közeli ismerőse kiemelt közszereplő?";
+
+"consents_statements_pep_warning_description" = "Ha Ön, hozzátartozója vagy közeli ismerőse kiemelt közszereplő, akkor nem tud online bankszámlát nyitni.";
+
+"consents_statements_pep_warning_title" = "Folytatná a számlanyitást?";
+
+"consents_statements_title" = "Nyilatkozatok";
+
+"contact_description" = "Kérdése vagy problémája van?\nVegye fel velünk a kapcsolatot!";
+
+"contact_dialog_title" = "Segíthetünk?";
+
+"contact_email_label" = "E-mail cím";
+
+/* Contact */
+"contact_header_title" = "Kapcsolat";
+
+"contact_info" = "Miért nem talál egy funkciót?";
+
+"contact_phone_hint" = "Munkanapokon 9:00 és 15:00 között.";
+
+"contact_phone_label" = "Telefonszám";
+
+"contact_send_feedback" = "Visszajelzés küldése";
+
+"contact_title" = "Magyar Bankholding";
+
+"contract_signing_signing" = "Szerződés aláírása";
+
+"contract_signing_title" = "Szerződés";
+
+"contracts_fetch_error_button" = "Újrapróbálom";
+
+"contracts_fetch_error_description" = "Próbálja újra!";
+
+"contracts_fetch_error_title" = "A szerződések betöltése\nnem sikerült.";
+
+"contracts_screen_accepted_at" = "Elfogadva: %@";
+
+"contracts_screen_signed_at" = "Aláírva: %@";
+
+/* Contracts */
+"contracts_screen_title" = "Szerződések, nyilatkozatok";
+
+"contracts_screen_uploaded_at" = "Feltöltve: %@";
+
+"country_picker_country_name_cannot_be_empty" = "Az ország neve nem lehet üres!";
+
+"country_picker_search_country_not_found_title_when_user_can_add_new" = "Használja a hozzáadás funkciót, ha nem találja az országot.";
+
+"create_password_button_title" = "Elküldöm az SMS kódot";
+
+"create_password_error" = "A jelszó nem felel meg a feltételeknek.";
+
+"create_password_input_title" = "Jelszó";
+
+"create_password_rule_lowercase" = "Kisbetű";
+
+"create_password_rule_min_length" = "Legalább %d karakter";
+
+"create_password_rule_number" = "Szám";
+
+"create_password_rule_uppercase" = "Nagybetű";
+
+/* Create password */
+"create_password_screen_title" = "Regisztráció";
+
+"create_password_subtitle" = "A jelszónak a következőket kell tartalmaznia:";
+
+"create_password_title" = "Állítsa be a jelszavát!";
+
+"dashboard_button_account_details" = "Bankszámla";
+
+"dashboard_button_card_details" = "Bankkártya";
+
+"dashboard_button_send_money" = "Új átutalás";
+
+"dashboard_latest_transactions" = "Legutóbbi tranzakciók";
+
+"dashboard_offers_title" = "Neked ajánljuk";
+
+"dashboard_topup_cta" = "Bankszámlaszám másolása";
+
+"dashboard_topup_description" = "Másolja ki a bankszámlaszámát, és utaljon át magának egy összeget, vagy fogadjon átutalásokat másoktól.";
+
+"dashboard_topup_title" = "Töltse fel az egyenlegét!";
+
+/* Dashboard */
+"dashboard_welcome_title" = "Üdv, %@!";
+
+"device_activation_authentication_error" = "A mobilszám vagy a jelszó nem egyezik a regisztrációnál megadottal. Próbálja újra! (Még %1$dx próbálkozhat.)";
+
+"device_activation_authentication_error_ios" = "A mobilszám vagy a jelszó nem egyezik a regisztrációnál megadottal. Próbálja újra! (Még %1$dx próbálkozhat.)";
+
+"device_activation_blocked_error_description" = "Kérjen egy új jelszót, vagy kérjen segítséget az ügyfélszolgálatunktól!";
+
+"device_activation_blocked_error_new_password" = "Új jelszót kérek";
+
+"device_activation_blocked_error_title" = "Túl sokszor próbálkozott, ezért biztonsági okokból letiltottuk.";
+
+"device_activation_help" = "Segíthetünk?";
+
+"device_activation_input_password_title" = "Jelszó";
+
+"device_activation_input_phone_number_title" = "Mobilszám";
+
+"device_activation_phone_not_found_error" = "Ehhez a mobilszámhoz nem tartozik regisztráció. Ha helyes a szám, lépjen vissza, és regisztráljon!";
+
+/* Device Activation */
+"device_activation_screen_title" = "Bejelentkezés";
+
+"device_activation_title" = "Adja meg a mobilszámát és a jelszavát!";
+
+"device_activation_too_many_error_description" = "Túl sokszor próbálkozott, ezért egy időre letiltottuk.";
+
+"device_activation_too_many_error_description_ios" = "Túl sokszor próbálkozott, ezért egy időre letiltottuk.\nPróbálja újra ***%1$d perc*** múlva!";
+
+"device_activation_too_many_error_title" = "Hibás mobilszám vagy jelszó.";
+
+"dm_statements_description" = "Még jobb számlacsomag? Új funkció? Egy jó kis kedvezmény? Az értesítéseinkkel semmiről nem fog lemaradni!";
+
+"dm_statements_notification_email" = "E-mail";
+
+"dm_statements_notification_off" = "Nem kérek értesítéseket.";
+
+"dm_statements_notification_off_hint" = "Semmilyen formában nem szeretnék értesülni az újdonságokról, ajánlatokról.";
+
+"dm_statements_notification_on" = "Jöhetnek az értesítések!";
+
+"dm_statements_notification_push" = "Push üzenet";
+
+"dm_statements_subtitle" = "(Nem kötelező)";
+
+"dm_statements_title" = "Újdonságok, ajánlatok";
+
+"document_must_read_through" = "Görgessen a dokumentum aljára!";
+
+"email_alteration_alter_button" = "Módosítás";
+
+"email_alteration_same_email_not_allowed_error" = "Adjon meg egy másik e-mail címet!";
+
+"email_alteration_title" = "Módosítás";
+
+"email_client_gmail" = "Gmail";
+
+"email_client_native" = "Beépített levelező";
+
+"email_client_outlook" = "Outlook";
+
+"email_client_spark" = "Spark";
+
+"email_verification_alter_email" = "E-mail cím módosítása";
+
+"email_verification_email_client_action_sheet_title" = "Melyik levelezőt használja?";
+
+"email_verification_email_resent" = "Megerősítő link újraküldve. Nyissa meg a postafiókját!";
+
+"email_verification_have_not_got_email" = "Nem kapott e-mailt?";
+
+/* EmailVerification */
+"email_verification_open_mail_app" = "Postafiók megnyitása";
+
+/* EmailVerification */
+"email_verification_operations_blocked" = "%@ múlva próbálhatja újra";
+
+"email_verification_operations_blocked_android" = "múlva próbálhatja újra";
+
+"email_verification_primary_button" = "Postafiók megnyitása";
+
+"email_verification_resend_email" = "E-mail újraküldése";
+
+"email_verification_subtitle" = "A megerősítő linket elküldtük az e-mail címére.";
+
+"email_verification_tertiary_button" = "Nem kapott e-mailt?";
+
+"email_verification_text" = "Ha nem kapta meg, nézze meg a spam mappában is!";
+
+/* EmailVerification */
+"email_verification_title" = "E-mail megerősítése";
+
+/* DEPRECATED */
+"feature_info_description" = "Az app még béta, ezért bizonyos funkciók hiányoznak belőle.\n\nFolyamatosan fejlesztjük az appot, és értesíteni fogjuk, amint újabb funkciók is elérhetők lesznek.";
+
+/* DEPRECATED */
+"feature_info_title" = "Miért nem talál egy funkciót?";
+
+"fingerprint_decryption_cancel_button" = "Mégse";
+
+"fingerprint_decryption_subtitle" = "Oldja fel a biometrikus azonosítóval a zárolást.";
+
+"fingerprint_decryption_title" = "Biometrikus azonosítás";
+
+"fingerprint_encryption_cancel_button" = "Kihagyás";
+
+/* TODO set final subtitle */
+"fingerprint_encryption_subtitle" = "Engedélyezi, hogy az app azonosítsa a készüléken beállított biometrikus azonosítóval?";
+
+"fingerprint_encryption_title" = "Biometrikus azonosítás engedélyezése";
+
+"force_update_action" = "Frissítés";
+
+"foreground_session_expiring_soon_description" = "A biztonsága érdekében 1 percen belül kiléptetjük az alkalmazásból. Szeretné folytatni?";
+
+"forgotten_pin_confirm" = "Bejelentkezés";
+
+"forgotten_pin_description" = "Új mPIN kód létrehozásához újra be kell jelentkeznie.";
+
+/* Forgotten pin */
+"forgotten_pin_title" = "Elfelejtette az mPIN kódját?";
+
+"generic_authentication_error" = "Helytelen mPIN kód. Próbálja újra! (Még %1$dx próbálkozhat.)";
+
+"generic_authentication_forced_logout_action" = "Belépés";
+
+"generic_authentication_forced_logout_subtitle" = "Lépjen be újra!";
+
+"generic_authentication_forced_logout_title" = "Túl sokszor próbálkozott, ezért biztonsági okokból kiléptettük.";
+
+"kyc_abort_dialog_cancel" = "Maradok";
+
+"kyc_abort_dialog_confirm" = "Kilépek";
+
+"kyc_abort_dialog_subtitle" = "Ha kilép, újra kell kezdenie a folyamatot.";
+
+"kyc_abort_dialog_title" = "Biztosan ki akar lépni?";
+
+"kyc_address_card_capture_info" = "Igazítsa a keretbe a lakcímkártya vonalkód nélküli oldalát, és csináljon egy fotót!";
+
+"kyc_address_card_instruction" = "Már csak a lakcímkártya vonalkód nélküli oldalát kell lefotóznia.";
+
+"kyc_address_card_screen_title" = "Lakcímkártya";
+
+"kyc_age_limit_error" = "Sajnos %1$d éves kor alatt online nem nyithat bankszámlát.";
+
+"kyc_birth_name_missing" = "Kötelező mező. Kérjük, adja meg a születési nevét.";
+
+"kyc_camera_permission_denied_action_allow" = "Engedélyezés";
+
+"kyc_camera_permission_denied_action_settings" = "Beállítások megnyitása";
+
+"kyc_camera_permission_denied_description_allow" = "Kérjük, engedélyezze a kamera elérését!";
+
+"kyc_camera_permission_denied_description_settings" = "Kérjük, engedélyezze a kamera elérését az eszköz beállításaiban!";
+
+"kyc_camera_permission_denied_title" = "Fényképes azonosítás nélkül nem nyithat bankszámlát.";
+
+"kyc_card_button_text" = "Indítom a fotózást";
+
+"kyc_data_confirmation_birthname_same" = "A születési neve ugyanez?";
+
+"kyc_data_confirmation_documents_section" = "Okmányok";
+
+"kyc_data_confirmation_personal_data_section" = "Személyes adatok";
+
+"kyc_data_confirmation_screen_title" = "Adatok";
+
+"kyc_date_of_birth_missing" = "Adja meg a születési idejét!";
+
+"kyc_documents_expired_error" = "Lejárt az azosító okmánya!";
+
+"kyc_documents_number" = "Azonosító okmány száma";
+
+"kyc_documents_number_format_error" = "Helytelen okmányszám. Kérjük, módosítsa!";
+
+"kyc_documents_number_missing" = "Adja meg az azonosító okmány számát!";
+
+"kyc_documents_type" = "Azonosító okmány típusa";
+
+"kyc_documents_validity" = "Érvényességi ideje";
+
+"kyc_documents_validity_missing" = "Adja meg az azonosító okmány érvényességi idejét!";
+
+"kyc_eid_appearance_info_description" = "Ha rajta van a személyi igazolványán, akkor eSzemélyije van.";
+
+"kyc_eid_appearance_info_headline" = "Keresse ezt a jelet:";
+
+"kyc_eid_appearance_info_title" = "Hogy néz ki?";
+
+"kyc_eid_benefits_info_description" = "eSzemélyivel nyitott bankszámlával bármekkora értékben vehet fel készpénzt, illetve 10 millió Ft-nál nagyobb és EU-n kívüli tranzakciókat is teljesíthet.";
+
+"kyc_eid_benefits_info_title" = "Miért jó eSzemélyivel bankszámlát nyitni?";
+
+"kyc_eid_description" = "Érintse a mobilja hátuljához, és olvassa be a személyes adatait.";
+
+"kyc_eid_description_android" = "Érintse a mobilja hátuljához, és olvassa be a személyes adatait.";
+
+"kyc_eid_description_ios" = "Érintse a mobilja tetejéhez, és olvassa be a személyes adatait.";
+
+"kyc_eid_help_action_title" = "Hová kell érinteni az eSzemélyit?";
+
+"kyc_eid_help_description_android" = "Az eSzemélyit a mobiljában lévő NFC olvassa be. Ez általában a készülék hátulján, középen található.";
+
+"kyc_eid_help_description_ios" = "Az eSzemélyit a mobiljában lévő NFC olvassa be. Ez a készülék tetején található.";
+
+"kyc_eid_info_description" = "2016. január 1. után kibocsátott személyi igazolvány, ami chipet is tartalmaz. A chip elektronikusan tárolja a személyes adatait, ezért online is azonosíthatja magát vele.";
+
+"kyc_eid_info_title" = "Mi az az eSzemélyi?";
+
+"kyc_eid_nfc_disabled_settings_action" = "Tovább a beállításokhoz";
+
+"kyc_eid_nfc_disabled_title" = "Kapcsolja be az NFC-t a mobilján!";
+
+"kyc_eid_nfc_reading_datagroup" = "Még ne vegye el a kártyát!";
+
+"kyc_eid_nfc_reading_default_android" = "Érintse a mobilja hátuljához az eSzemélyit!";
+
+"kyc_eid_nfc_reading_error" = "Próbálja újra!";
+
+"kyc_eid_nfc_reading_reading" = "Érintse a mobilja hátuljához az eSzemélyit!";
+
+"kyc_eid_nfc_reading_reading_android" = "A beolvasás alatt ne vegye el az eSzemélyit!";
+
+"kyc_eid_nfc_reading_reading_step_access_android" = "Beolvasás";
+
+"kyc_eid_nfc_reading_reading_step_done_android" = "Befejezés";
+
+"kyc_eid_nfc_reading_reading_step_init_android" = "Előkészítés";
+
+"kyc_eid_nfc_reading_reading_step_personal_android" = "Adatok feldolgozása";
+
+"kyc_eid_nfc_reading_reading_step_photo_android" = "Kép feldolgozása";
+
+"kyc_eid_nfc_reading_reading_step_uploading_android" = "Feltöltés";
+
+"kyc_eid_nfc_reading_reading_step_verify_android" = "Ellenőrzés";
+
+"kyc_eid_nfc_reading_request_present_id_iOS" = "Tartsa a mobilja tetejéhez az eSzemélyit és a beolvasás alatt ne vegye el!";
+
+"kyc_eid_nfc_reading_success" = "A beolvasás sikerült.";
+
+"kyc_eid_nfc_reading_title" = "eSzemélyi beolvasása";
+
+"kyc_eid_primary_action_title" = "eSzemélyi beolvasása";
+
+"kyc_eid_read_nfc_action" = "Beolvasás";
+
+"kyc_eid_screen_title" = "eSzemélyi beolvasása";
+
+"kyc_eid_skip_nfc_description" = "eSzemélyi nélkül jelenleg csak korlátozott bankszámlát nyithat, amivel max. havi 300 000 Ft készpénzt vehet fel, és max. 10 millió Ft értékű, EU-n belüli tranzakciókat teljesíthet.";
+
+"kyc_eid_skip_nfc_title" = "Biztosan kihagyja a beolvasást?";
+
+"kyc_eid_title" = "Önnek eSzemélyije van!";
+
+"kyc_first_name_missing" = "Adja meg az utónevét!";
+
+"kyc_hologram_button_text" = "Fotózás indítása";
+
+"kyc_hologram_capture_info" = "Billegtesse a személyi igazolvány fényképes oldalát, hogy csillogjon a hologram.";
+
+"kyc_hologram_check_missing_document" = "Vigye a keretet az igazolvány fölé!";
+
+"kyc_hologram_check_outside_camera" = "Ne lógjon ki a keretből!";
+
+"kyc_hologram_check_technical_error" = "Nem látszik vagy nem megfelelő az igazolvány!";
+
+"kyc_hologram_check_too_small" = "Tartsa közelebb a kamerát!";
+
+"kyc_hologram_instruction" = "Újra a személyi igazolvány fényképes oldala jön. Most a hologramot fogjuk ellenőrizni.";
+
+"kyc_hologram_screen_title" = "Személyi igazolvány";
+
+"kyc_id_card_back_capture_info" = "Igazítsa a keretbe a személyi igazolvány hátoldalát, és csináljon egy fotót!";
+
+"kyc_id_card_back_instruction" = "Fordítsa meg a személyi igazolványt!";
+
+"kyc_id_card_front_capture_info" = "Igazítsa a keretbe a személyi igazolvány fényképes oldalát, és csináljon egy fotót!";
+
+"kyc_id_card_front_instruction" = "A személyi igazolvány fényképes oldala következik.";
+
+"kyc_id_card_screen_title" = "Személyi igazolvány";
+
+"kyc_last_name_missing" = "Adja meg a családnevét!";
+
+"kyc_liveness_check_button_text" = "Indítom a szelfizést";
+
+"kyc_liveness_check_guide_head_tilt" = "Tarsa egyenesen a fejét!";
+
+"kyc_liveness_check_guide_move_head" = "Ne lógjon ki a keretből!";
+
+"kyc_liveness_check_guide_move_head_away" = "Tartsa távolabb a kamerát!";
+
+"kyc_liveness_check_guide_move_head_closer" = "Tartsa közelebb a kamerát!";
+
+"kyc_liveness_check_instruction" = "Nézzen a kamerába és kövesse a képernyőn lévő utasításokat!";
+
+"kyc_liveness_check_screen_title" = "Szelfi";
+
+"kyc_liveness_check_task_blink" = "Pislogjon egyet!";
+
+"kyc_liveness_check_task_look_down" = "Nézzen le!";
+
+"kyc_liveness_check_task_look_into_camera" = "Nézzen a kamerába!";
+
+"kyc_liveness_check_task_look_left" = "Nézzen balra!";
+
+"kyc_liveness_check_task_look_right" = "Forduljon jobbra!";
+
+"kyc_liveness_check_task_look_up" = "Nézzen fel!";
+
+"kyc_liveness_check_task_smile" = "Mosolyogjon!";
+
+"kyc_mothers_name_missing" = "Adja meg az anyja születési nevét!";
+
+"kyc_photo_error" = "A kép nem volt megfelelő. Kérjük, próbálja újra!";
+
+"kyc_photo_error_face_missing" = "A kép nem volt megfelelő. Kérjük, hogy pontosan illessze az arcát a keretbe!";
+
+"kyc_photo_error_move_head_away" = "A kép nem volt megfelelő. Kérjük, hogy pontosan illessze az arcát a keretbe!";
+
+"kyc_photo_error_move_head_closer" = "A kép nem volt megfelelő. Kérjük, hogy pontosan illessze az arcát a keretbe!";
+
+"kyc_place_of_birth_missing" = "Adja meg a születési helyét!";
+
+"kyc_prepare_your_documents" = "Készítse elő személyi igazolványát és lakcímkártyáját!";
+
+"kyc_process_failed" = "Sikertelen azonosítás. Próbálja újra!";
+
+"kyc_proof_of_address_capture_info" = "Igazítsa a keretbe a lakcímkártya vonalkód nélküli oldalát, és csináljon egy fotót!";
+
+"kyc_proof_of_address_instructions" = "Már csak a lakcímkártya vonalkód nélküli oldalát kell lefotóznia.";
+
+"kyc_selfie_button_text" = "Indítom a szelfizést";
+
+"kyc_selfie_info" = "Ha az egész arca a keretben van, csináljon egy fotót!";
+
+"kyc_selfie_instruction" = "Először egy szelfit kell készítenie!";
+
+"kyc_selfie_screen_title" = "Szelfi";
+
+"kyc_start_page_card_description" = "Az iratai alapján ellenőrizzük, hogy Ön tényleg Ön-e.";
+
+"kyc_start_page_card_title" = "Személyi igazolvány és lakcímkártya";
+
+"kyc_start_page_init_error" = "Sajnos valamilyen hiba történt.";
+
+"kyc_start_page_screen_title" = "Fényképes azonosítás";
+
+"kyc_start_page_selfie_description" = "Ne aggódjon, ha nincs formában. A fotókat csak azonosításra használjuk.";
+
+"kyc_start_page_selfie_title" = "Szelfi";
+
+"kyc_start_page_title" = "Most a fotózás jön!";
+
+"loan_amount" = "Hitelösszeg";
+
+"loan_application_button_title" = "Hitel jóváírása";
+
+"loan_application_calculation" = "Kalkuláció";
+
+"loan_application_contract" = "Szerződés";
+
+"loan_application_example_markdown" = "### Reprezentatív példa\nHitelösszeg: 3 000 000 Ft.\n\nFutamidő: 48 hónap.\n\nÜgyleti kamat mértéke: 13,2%.\n\nTHM értéke: 14,8%.\n\nHitelkamat típusa: fix.\n\nHavi törlesztőrészlet: 83 188 Ft.\n\nHitel teljes díja: 139 536 Ft.\n\nFizetendő teljes összeg: 3 993 024 Ft";
+
+"loan_application_low_salary_text" = "A válaszod alapján jelenleg nem felelsz meg az igénylés feltételeinek.";
+
+"loan_application_low_salary_title" = "Most nem folytathatod a hiteligénylést";
+
+"loan_application_page_title" = "MBH Instant hitel";
+
+"loan_application_preparation" = "Előkészítés";
+
+"loan_application_text" = "A folyamatot bármikor megszakíthatod, és később ott folytathatod, ahol abbahagytad!";
+
+"loan_application_title" = "Hiteligénylés";
+
+"loan_aszf_terms_linked_document" = "Megnyitottam, elolvastam és elfogadom az [Általános szerződési feltételeket](aszf-link).";
+
+"loan_calculation_details_card_title" = "Kalkulált hitel részletei";
+
+"loan_calculation_instruction_markdown" = "### Futamidő\nAz az időszak, ami alatt vissza kell fizetned a felvett hitelösszeget annak minden díjával, kamatával és költségével együtt.\n### Havi törlesztőrészlet\nA felvett hitel után fizetendő kamat és tőkerész együttes összege, amit havonta kell megfizetned.\n### Kamat\nA kamat a felvett hitel ára, amit a hitelösszeg használatáért kell megfizetned a havi törlesztőrészletek részeként.\n### Teljes hiteldíjmutató (THM)\nAzt az összeget jelenti, amit a felvett hitelösszegen túl meg kell fizetned. Nem ugyanaz, mint a kamat, viszont a többi költséggel együtt magában foglalja azt.";
+
+"loan_calculation_instruction_title" = "További információk";
+
+"loan_calculation_result_text" = "A szerződésbe ezek a hitelrészletek fognak belekerülni. Nézd át még egyszer, hogy rendben vannak-e!";
+
+"loan_calculation_text" = "Add meg, mennyi pénzre van szükséged, és hány év alatt törlesztenéd vissza!";
+
+"loan_campaign_tile_text" = "Szabad felhasználásra, fix kamattal! THM: %@%";
+
+"loan_campaign_tile_title" = "MBH Instant hitel";
+
+"loan_campaigns_title" = "Neked ajánljuk";
+
+"loan_discount_interest" = "Kedvezményes kamat";
+
+"loan_discount_thm" = "Kedvezményes THM";
+
+"loan_document_infosheet_title" = "Tájékoztató";
+
+"loan_document_read_button_title" = "Elolvastam";
+
+"loan_full_repayable" = "Teljes visszafizetendő összeg";
+
+"loan_gdpr_terms_linked_document" = "Megnyitottam, elolvastam és elfogadom az [Adatkezelési tájékoztatót](gdpr-link).";
+
+"loan_intro1_example_button" = "Reprezentatív példa";
+
+"loan_intro1_text" = "Válaszd az MBH Instant hitelt szabad felhasználásra, kedvezményes kamattal!\nTHM: %@%";
+
+"loan_intro1_title" = "Akár %@ millió Ft azonnal";
+
+"loan_intro2_text" = "A folyamat egyszerű és teljesen online, még az aláírás miatt sem kell bankfiókba menned.";
+
+"loan_intro2_title" = "Gyors online igénylés";
+
+"loan_intro3_not_interested_button_title" = "Nem érdekel az ajánlat";
+
+"loan_intro3_start_button_title" = "Elindítom a hiteligénylést";
+
+"loan_intro3_text" = "Az összeget azonnal átutaljuk, ha mindent rendben találunk a hiteladatiddal kapcsolatban.";
+
+"loan_intro3_title" = "Jóváírás várakozás nélkül";
+
+"loan_khr_accept" = "Aláírom a hozzájárulást";
+
+"loan_khr_accept_title" = "Hozzájárulok, hogy a KHR-ben kezelt adataimat az MBH Bank átvehesse.";
+
+"loan_khr_share_title" = "Hozzájárulok, hogy a hitel megszűnése után a KHR-t működtető BISZ Zrt. még 5 évig kezelje a szerződésemmel kapcsolatos adatokat.";
+
+"loan_khr_text" = "Ahhoz, hogy folytathasd az igénylést, mindenképp járulj hozzá a KHR-ben kezelt adataid átadásához!";
+
+"loan_khr_title" = "KHR lekérdezés";
+
+"loan_monthly_installment" = "Havi törlesztőrészlet";
+
+"loan_period" = "Futamidő";
+
+"loan_period_formatted_title" = "%@ hó (%@ év)";
+
+"loan_repayable" = "Visszafizetendő összeg";
+
+"loan_risk_terms_linked_document" = "Megnyitottam és elolvastam a túlzott eladósodás kockázatairól szóló [Tájékoztatót](risk_terms).";
+
+"loan_risk_terms_text" = "Mielőtt belevágsz az igénylésbe, olvasd el az alábbi tájékoztatót, ami segít mérlegelni a kockázatokat!";
+
+"loan_risk_terms_title" = "Mérlegelés";
+
+"loan_salary_terms_accept" = "Megerősítem";
+
+"loan_salary_terms_refuse" = "Nincs ekkora bevételem";
+
+"loan_salary_terms_text" = "A jövedelmi adataid alapján úgy látjuk, hogy min. havi 600 000 Ft bevétellel rendelkezel, ami után a kötelező adókat és járulékokat megfizeted.";
+
+"loan_salary_terms_title" = "Jövedelem megerősítése";
+
+"loan_terms_text" = "A folytatáshoz olvasd át, majd fogadd el az alábbi dokumentumokat!";
+
+"loan_terms_title" = "Adatkezelés és ÁSZF elfogadása";
+
+"login_auth_error_dialog_description" = "Túl sokszor próbálkozott, ezért egy időre letiltottuk.";
+
+"login_auth_error_dialog_title" = "Helytelen mPIN kód.";
+
+"login_authentication_error" = "Helytelen mPIN kód.\nPróbálja újra! (Még %1$dx próbálkozhat)";
+
+/* Login */
+"login_button" = "Belépés";
+
+"login_greeting_afternoon" = "Jó napot, %@!";
+
+"login_greeting_morning" = "Jó reggelt, %@!";
+
+"login_greeting_night" = "Jó estét, %@!";
+
+"login_pin_biometric_login" = "Ujjlenyomattal azonosítaná magát?";
+
+"login_pin_forgotten_pin" = "Elfelejtette az mPIN kódját?";
+
+"login_pin_screen_title" = "Azonosítás";
+
+"login_pin_title" = "Adja meg az mPIN kódját!";
+
+"login_too_many_attempts_button" = "Bejelentkezés";
+
+"login_too_many_attempts_description" = "Jelentkezzen be, és hozzon létre egy új mPIN kódot!";
+
+"login_too_many_attempts_title" = "Túl sokszor próbálkozott, ezért biztonsági okokból kijelentkeztettük.";
+
+"login_too_many_error_description_ios" = "Túl sokszor próbálkozott, ezért egy időre letiltottuk.\nPróbálja újra ***%1$d perc*** múlva!";
+
+"main_bottom_navigation_contact" = "Kapcsolat";
+
+/* Main */
+"main_bottom_navigation_dashboard" = "Főoldal";
+
+"main_bottom_navigation_send_money" = "Átutalás";
+
+"main_bottom_navigation_transactions" = "Tranzakciók";
+
+"monthly_statement_empty_text" = "Itt találja majd a\nszámlakivonatokat.";
+
+"monthly_statement_fetch_error_button" = "Újrapróbálom";
+
+"monthly_statement_fetch_error_description" = "Próbálja újra!";
+
+"monthly_statement_fetch_error_title" = "A számlakivonatok\nbetöltése nem sikerült.";
+
+/* Monthly statement */
+"monthly_statement_screen_title" = "Számlakivonatok";
+
+"new_transfer_account_number_empty_error" = "Adja meg a kedvezményezett bankszámlaszámát!";
+
+"new_transfer_amount_current_amount" = "Jelenleg elérhető egyenleg: %@";
+
+"new_transfer_amount_daily_limit_amount_error" = "Ma már csak %@-ot utalhat. Módosítsa a napi átutalási limitet!";
+
+/* Deprecated */
+"new_transfer_amount_daily_limit_error" = "Túllépte a napi átutalási limitet. Adjon meg kisebb összeget vagy módosítsa a limitet!";
+
+/* Deprecated */
+"new_transfer_amount_insufficient_error" = "Nincs elég fedezet a bankszámlán. Adjon meg kisebb összeget!";
+
+"new_transfer_amount_title" = "Összeg";
+
+"new_transfer_amount_transfer_limit_error" = "Ezzel az átutalással átlépné az átvezetési limitjét. Adjon meg kisebb összeget, vagy módosítsa a limitet!";
+
+"new_transfer_beneficiary_account_number" = "Bankszámlaszám";
+
+"new_transfer_beneficiary_account_number_footer" = "Jelenleg csak Magyar Bankholdingnál vezetett bankszámlaszámra utalhat.";
+
+"new_transfer_beneficiary_account_number_format_error" = "Helytelen bankszámlaszám. Próbálja újra!";
+
+"new_transfer_beneficiary_account_number_intrabank_error" = "Magyar Bankholdingnál vezetett bankszámlaszámot adjon meg!";
+
+"new_transfer_beneficiary_account_number_matches_debtor_error" = "A kedvezményezett bankszámlaszámát adja meg!";
+
+"new_transfer_beneficiary_beneficiary_name" = "Kedvezményezett neve";
+
+"new_transfer_beneficiary_id_type" = "Azonosító típusa";
+
+"new_transfer_beneficiary_id_type_account_number" = "Bankszámlaszám";
+
+"new_transfer_beneficiary_name_empty_error" = "Adja meg a kedvezményezett nevét!";
+
+"new_transfer_beneficiary_name_invalid_char_error" = "A kedvezményezett neve csak nagy- és kisbetűket tartalmazhat. Kérjük, módosítsa!";
+
+"new_transfer_beneficiary_notice_title" = "Közlemény";
+
+"new_transfer_beneficiary_notice_title_required" = "(nem kötelező)";
+
+/* New Transfer */
+"new_transfer_beneficiary_title" = "Kedvezményezett";
+
+"new_transfer_info_subtitle" = "Az app még béta, ezért egyelőre nem módosíthatja az átutalás időpontját.";
+
+"new_transfer_info_title" = "Módosítaná az átutalás időpontját?";
+
+"new_transfer_notice_special_characters_error" = "A közleményben nem lehet speciális karakter. Kérjük, módosítsa!";
+
+"new_transfer_result_detail_amount_title" = "Összeg";
+
+"new_transfer_result_detail_beneficiary_title" = "Kedvezményezett";
+
+"new_transfer_result_detail_notice_title" = "Közlemény";
+
+"new_transfer_result_error_general_message" = "Próbálja újra később!";
+
+"new_transfer_result_error_title" = "Az átutalás visszautasításra került.";
+
+"new_transfer_result_failed_to_fetch_transaction" = "Az átutalás részleteit a Tranzakciók menüben ellenőrizheti.";
+
+"new_transfer_result_success_subtitle" = "Várhatóan pár másodperc múlva megérkezik a kedvezményezetthez.";
+
+"new_transfer_result_success_title" = "Az összeg már úton van.";
+
+"new_transfer_state_complete_description" = "Az összeg megérkezett a kedvezményezetthez.";
+
+"new_transfer_state_complete_title" = "Az átutalás sikerült.";
+
+"new_transfer_state_pending_description" = "Önnek nincs további teendője. Az átutalás státuszát a Tranzakciók menüben ellenőrizheti.";
+
+"new_transfer_state_pending_title" = "Az átutalás folyamatban van.";
+
+"new_transfer_state_rejected_creditor_special_character" = "Helytelen kedvezményezett neve";
+
+"new_transfer_state_rejected_generic" = "Átutalás visszautasítva";
+
+"new_transfer_state_rejected_insufficient_balance_description_1" = "Nem tudtuk levonni az összeget, mert nem volt elég pénz a bankszámláján.";
+
+"new_transfer_state_rejected_insufficient_balance_description_2" = "Ellenőrizze az egyenlegét, és kezdje újra az átutalást!";
+
+"new_transfer_state_rejected_invalid_creditor_description_1" = "Bankszámlaszám nem létezik vagy megszűnt";
+
+"new_transfer_state_rejected_invalid_creditor_description_2" = "Ellenőrizze a bankszámlaszámot, és kezdje újra az átutalást!";
+
+"new_transfer_state_rejected_limit_reached_description_1" = "Limittúllépés: Napi átutalási limit";
+
+"new_transfer_state_rejected_limit_reached_description_2" = "Kérjük kezdje újból az utalást egy alacsonyabb összeggel vagy módosítsa a napi limitet!";
+
+"new_transfer_state_rejected_not_intrabank_description_1" = "Jelenleg csak Magyar Bankholdingnál vezetett bankszámlaszámra utalhat.";
+
+"new_transfer_state_rejected_please_restart" = "Kezdje újra az átutalást!";
+
+"new_transfer_state_rejected_reference_special_character" = "Helytelen közlemény";
+
+"new_transfer_state_rejected_technical_description_1" = "Technikai probléma";
+
+"new_transfer_state_rejected_technical_description_2" = "Kérjük, ismételje meg később az átutalást!";
+
+"new_transfer_state_rejected_title" = "Az átutalás nem sikerült.";
+
+"new_transfer_summary_amount_title" = "Összeg";
+
+"new_transfer_summary_instant_transfer" = "Azonnali átutalás";
+
+"new_transfer_summary_no_notice_given" = "Nem adott meg közleményt.";
+
+"new_transfer_summary_notice_title" = "Közlemény";
+
+"new_transfer_summary_send" = "Küldés %@";
+
+"new_transfer_summary_title" = "Összefoglaló";
+
+"new_transfer_summary_transfer_bottom_hint" = "Az átutalás jóváhagyása következik.";
+
+"new_transfer_summary_transfer_date_title" = "Átutalás időpontja";
+
+"new_transfer_transaction_fee" = "+ Tranzakciós díj: %@";
+
+"new_transfer_transaction_fee_no_data" = "+ Tranzakciós díj: Nincs adat";
+
+"notification_card_3ds_challenge_push_notification_header" = "Online fizetés";
+
+"notification_card_3ds_challenge_push_notification_message" = "Koppintson ide a jóváhagyáshoz!";
+
+"notification_card_authorization_failed_atm_balance_header" = "❌ Sikertelen készpénzfelvétel";
+
+"notification_card_authorization_failed_atm_balance_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Fedezethiány";
+
+"notification_card_authorization_failed_atm_downtime_header" = "❌ Sikertelen készpénzfelvétel";
+
+"notification_card_authorization_failed_atm_downtime_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Technikai probléma 👉 Próbálja újra!";
+
+"notification_card_authorization_failed_atm_internal_error_header" = "❌ Sikertelen készpénzfelvétel";
+
+"notification_card_authorization_failed_atm_internal_error_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Technikai probléma 👉 Próbálja újra később!";
+
+"notification_card_authorization_failed_atm_limit_header" = "❌ Sikertelen készpénzfelvétel";
+
+"notification_card_authorization_failed_atm_limit_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Limittúllépés: napi készpénzfelvételi limit";
+
+"notification_card_authorization_failed_balance_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_balance_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Fedezethiány";
+
+"notification_card_authorization_failed_blocked_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_blocked_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Bankkártya letiltva";
+
+"notification_card_authorization_failed_cvv_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_cvv_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Helytelen CVC kód";
+
+"notification_card_authorization_failed_downtime_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_downtime_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Technikai probléma 👉 Próbálja újra!";
+
+"notification_card_authorization_failed_expired_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_expired_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Helytelen bankkártya lejárati dátum";
+
+"notification_card_authorization_failed_frozen_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_frozen_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Bankkártya befagyasztva";
+
+"notification_card_authorization_failed_internal_error_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_internal_error_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Technikai probléma 👉 Próbálja újra később!";
+
+"notification_card_authorization_failed_limit_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_limit_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Limittúllépés: napi összes költési limit";
+
+"notification_card_authorization_failed_pin_header" = "❌ Sikertelen bankkártyás fizetés";
+
+"notification_card_authorization_failed_pin_message" = "{{transactionAmount}}; {{merchantName}} 🤔 Helytelen PIN kód";
+
+"notification_card_authorization_successful_atm_header" = "Készpénzfelvétel";
+
+"notification_card_authorization_successful_atm_message" = "{{transactionAmount}}; {{merchantName}}; {{transactionTime}} - Elérhető egyenleg: {{balance}}";
+
+"notification_card_authorization_successful_header" = "Bankkártyás fizetés";
+
+"notification_card_authorization_successful_message" = "{{transactionAmount}}; {{merchantName}}; {{transactionTime}} - Elérhető egyenleg: {{balance}}";
+
+"notification_card_blocked_physical_bank_header" = "⚠️ Bankkártya letiltva";
+
+"notification_card_blocked_physical_bank_message" = "Hívja az ügyfélszolgálatunkat!";
+
+"notification_card_reversal_successful_header" = "Sztornózott bankkártyás fizetés";
+
+"notification_card_reversal_successful_message" = "{{transactionAmount}}; {{merchantName}} Elfogadóhely által törölt tranzakció";
+
+"notification_card_status_update_message" = "Card token: {{cardToken}}, transaction status: {{transactionStatus}}, new card status: {{newStatus}}";
+
+"offer_papl_subtitle_md" = "THM ~~%@~~ helyett, most %@";
+
+"offer_papl_title" = "Személyi kölcsön";
+
+"ownerevaluation_reason_faceId_ios" = "Nézzen az iPhone készülékére az azonosításhoz!";
+
+"ownerevaluation_reason_touchId_ios" = "Érintse meg a TouchID érzékelőt az azonosításhoz!";
+
+"personal_details_address" = "Lakcím";
+
+"personal_details_address_zip_code_invalid" = "Helytelen irányítószám. Kérjük, módosítsa!";
+
+"personal_details_birthDate" = "Születési dátum";
+
+"personal_details_button_title" = "Módosítaná az adatait?";
+
+"personal_details_country" = "Magyarország";
+
+"personal_details_document_type" = "Személyi igazolvány";
+
+"personal_details_email" = "E-mail cím";
+
+"personal_details_info_description" = "Az app még béta, ezért egyelőre az ügyfélszolgálatunk segítségével módosíthatja a személyes adatait.";
+
+"personal_details_info_title" = "Módosítaná az adatait?";
+
+"personal_details_name" = "Név";
+
+"personal_details_nationality" = "Magyar";
+
+"personal_details_phone_number" = "Mobilszám";
+
+/* Personal Details */
+"personal_details_title" = "Személyes adatok";
+
+"personal_info_fetch_error_button" = "Újrapróbálom";
+
+"personal_info_fetch_error_description" = "Próbálja újra!";
+
+/* Personal Details */
+"personal_info_fetch_error_title" = "A személyes adatok\nbetöltése nem sikerült.";
+
+"pin_change_biometric" = "Ujjlenyomattal azonosítaná magát?";
+
+"pin_change_confirmation_screen_title" = "mPIN kód megerősítése";
+
+"pin_change_creation_screen_title" = "mPIN kód módosítása";
+
+"pin_change_error_equals_old" = "Úgy tűnik, ez a régi mPIN kódja. Adjon meg egy új mPIN kódot!";
+
+"pin_change_forgotten_pin" = "Elfelejtette az mPIN kódját?";
+
+"pin_change_pin_change_successful" = "mPIN kód módosítva";
+
+/* Pin change */
+"pin_change_screen_title" = "Azonosítás";
+
+"pin_change_title" = "Adja meg az mPIN kódját!";
+
+/* Pin change */
+"pin_creation_error_mismatching" = "Nem egyezett a két kód.\nPróbálja újra!";
+
+"pin_creation_error_same_chars" = "Különböző számokból álló kódot adjon meg!";
+
+"pin_creation_error_sequence" = "Ne sorban lévő számokból álló kódot adjon meg!";
+
+"pin_creation_header_add" = "Adjon meg egy 6 jegyből álló számot!";
+
+"pin_creation_header_add_ios" = "Adjon meg egy %1$d jegyből álló számot!";
+
+"pin_creation_header_confirm" = "Írja be újra a számot az mPIN kód megerősítéséhez!";
+
+"pin_creation_title_add" = "mPIN kód létrehozása";
+
+"pin_creation_title_confirm" = "mPIN kód megerősítése";
+
+"pin_info_create" = "mPIN kód létrehozása";
+
+"pin_info_hint" = "Milyen a megfelelő mPIN kód?";
+
+"pin_info_subtitle" = "Az mPIN kóddal azonosíthatja magát, beléphet az appba és jóváhagyhatja a tranzakciókat.";
+
+/* mPin creation */
+"pin_info_title" = "Hozza létre az mPIN kódját!";
+
+"pin_setup_confirm_screen_subtitle" = "Ismételje meg a PIN kódot!";
+
+"pin_setup_confirm_screen_title" = "PIN kód megerősítése";
+
+"pin_setup_error_mismatching" = "Nem egyezett a két PIN kód.\nKérjük, próbálja újra!";
+
+"pin_setup_error_same_chars" = "Nem megfelelő PIN kód.\nKérjük, különböző számokból álló kódot adjon meg!";
+
+"pin_setup_error_sequence" = "Nem megfelelő PIN kód.\nKérjük, ne sorban lévő számokból álló kódot adjon meg!";
+
+"pin_setup_info_hint" = "Milyen a megfelelő PIN kód?";
+
+"pin_setup_result_screen_title" = "A bankkártya kész, hamarosan postázzuk.";
+
+"pin_setup_screen_subtitle" = "Állítsa be az új bankkártyája PIN kódját!";
+
+/* Pin Setup */
+"pin_setup_screen_title" = "PIN kód beállítása";
+
+"pin_setup_tips_description" = "Nehezen kitalálható, ezért nem állhat:\n\n  • azonos számokból (pl. 1111) és\n  • sorban lévő számokból (pl. 1234).\n\nNe adjon meg olyan számot se, ami könnyen Önhöz köthető (pl. születési dátum, irányítószám, telefonszám)!";
+
+"pin_tips_description" = "Nehezen kitalálható, ezért nem állhat:\n\n  • azonos számokból (pl. 111111) és\n  • sorban lévő számokból (pl. 123456).\n\nNe adjon meg olyan számot se, ami könnyen Önhöz köthető (pl. születési dátum, irányítószám, telefonszám)!";
+
+"pin_tips_title" = "Milyen a megfelelő mPIN kód?";
+
+"privacy_policy_title" = "Adatkezelési tájékoztató";
+
+"profile_app_version" = "%1$@ verzió";
+
+"profile_option_biometry" = "Biometrikus azonosítás";
+
+"profile_option_biometry_faceid" = "Azonosítás FaceID-val";
+
+"profile_option_biometry_touchid" = "Azonosítás TouchID-val";
+
+"profile_option_contracts" = "Szerződések, nyilatkozatok";
+
+"profile_option_logout" = "Kilépés";
+
+"profile_option_monthly_account_statements" = "Számlakivonatok";
+
+"profile_option_mpin_change" = "mPIN kód módosítása";
+
+"profile_option_my_documents" = "Saját dokumentumok";
+
+"profile_option_other" = "Egyéb";
+
+"profile_option_personal" = "Személyes";
+
+"profile_option_personal_data" = "Személyes adatok";
+
+"profile_option_reset" = "App alaphelyzetbe állítása";
+
+"profile_option_security" = "Biztonság";
+
+/* Profile */
+"profile_screen_title" = "Profil";
+
+"proof_of_address_document" = "Lakcímkártya";
+
+"purchase_challenge_amount" = "Összeg";
+
+"purchase_challenge_approved_description" = "Lépjen vissza az elfogadóhely oldalára, és ellenőrizze, hogy van-e további teendője!";
+
+"purchase_challenge_approved_title" = "A fizetést jóváhagyta!";
+
+"purchase_challenge_date" = "Fizetés időpontja";
+
+"purchase_challenge_declined_title" = "A fizetést elutasította.";
+
+"purchase_challenge_info" = "##### Ha a bankkártyájával online fizet, a legtöbb esetben az\napp-pal is jóvá kell hagynia a tranzakciót.\n\nEzzel megelőzhetjük, hogy visszaéljenek a\nbankkártyája adataival és még biztonságosabbá\ntehetjük az online fizetéseket.";
+
+"purchase_challenge_info_markdown" = "Ha a bankkártyájával online fizet, a legtöbb esetben az\napp-pal is jóvá kell hagynia a tranzakciót.\n\nEzzel megelőzhetjük, hogy visszaéljenek a\nbankkártyája adataival és még biztonságosabbá\ntehetjük az online fizetéseket.";
+
+"purchase_challenge_merchant" = "Elfogadóhely neve";
+
+/* Purchase Challenge */
+"purchase_challenge_title" = "Online fizetés jóváhagyása";
+
+"reachability_state_view_reachable_title" = "Helyreállt az internet";
+
+"reachability_state_view_unreachable_title" = "Nincs internet";
+
+"registration_email_info_description" = "E-mailben vesszük fel Önnel a kapcsolatot, ha valamilyen probléma miatt nem tud regisztrálni.";
+
+"registration_email_info_subtitle" = "Miért kérjük el az e-mail címét?";
+
+"registration_email_info_title" = "E-mail cím megadása";
+
+"registration_finish_button" = "Számlanyitás elkezdése";
+
+"registration_finish_description" = "El is kezdheti a számlanyitás, amihez csak a személyi igazolványára és a lakcímkártyájára lesz szükség.";
+
+"registration_finish_title" = "A regisztráció sikerült.";
+
+"registration_otp_error_blocked_description" = "Kérjük, kezdje újra a regisztrációt!";
+
+"registration_otp_error_blocked_restart_registration" = "Újrakezdem a regisztációt";
+
+"registration_otp_error_blocked_subtitle" = "Túl sokszor kért új SMS kódot, ezért biztonsági okokból letiltottuk.";
+
+"registration_otp_error_expired_code" = "Lejárt SMS kód. Az utoljára kapott SMS kódott írja be!";
+
+"registration_otp_error_otp_expired" = "Lejárt SMS kód. Az utoljára kapott SMS kódott írja be!";
+
+"registration_otp_error_otp_expired_description" = "Ha a %@ mobilszám helyes, kérjen új SMS kódot! Ha nem ez a mobilszáma, kezdje újra a folyamatot!";
+
+"registration_otp_error_restart_process" = "Újrakezdem";
+
+"registration_otp_error_too_many_otp_try_description" = "Ha a %@ mobilszám helyes, kérjen új SMS kódot! Ha nem ez a mobilszáma, kezdje újra a folyamatot!";
+
+"registration_otp_error_too_many_otp_try_subtitle" = "Túl sokszor írta be helytelenül az SMS kódot.";
+
+"registration_otp_error_too_many_request_description" = "Kezdje újra a folyamatot!";
+
+"registration_otp_error_too_many_request_subtitle" = "Túl sokszor kért új SMS kódot, ezért biztonsági okokból letiltottuk.";
+
+"registration_otp_error_wrong_code" = "Helytelen SMS kód. Próbálja újra! (Még %1$dx próbálkozhat.)";
+
+"registration_otp_error_wrong_otp" = "Helytelen SMS kód. Próbálja újra! (Még %1$dx próbálkozhat.)";
+
+"registration_otp_expired_code_dialog_title" = "Az SMS kód már lejárt.";
+
+"registration_otp_failed_dialog_description" = "Ha a %1$1@ mobilszám helyes, kérjen új SMS kódot! Ha nem ez a mobilszáma, kezdje újra a regisztrációt!";
+
+"registration_otp_new_code_request" = "Új SMS kód kérése";
+
+"registration_otp_new_code_sent" = "SMS kód újraküldve. Nézze meg az SMS-eit! (Még %1$dx kérhet újat.)";
+
+"registration_otp_no_sms" = "Nem kapta meg az SMS-t?";
+
+"registration_otp_otp_input_title" = "SMS kód";
+
+"registration_otp_phone_number_info" = "SMS kódot küldtünk erre a számra:\n%@.\nÍrja be az SMS kódot!";
+
+"registration_otp_restart_button" = "Regisztráció újrakezdése";
+
+/* SMS OTP */
+"registration_otp_screen_title" = "Mobilszám megerősítése";
+
+"registration_otp_too_many_resend_description" = "Kérjük, kezdje újra a regisztrációt!";
+
+"registration_otp_too_many_resend_title" = "Túl sokszor kért új SMS kódot, ezért biztonsági okokból letiltottuk.";
+
+"registration_otp_verified_title" = "A mobilszám megerősítése sikerült.";
+
+"registration_phone_info_description" = "A mobilszámra fogjuk elküldeni a regisztráció megerősítéséhez szükséges SMS kódot.";
+
+"registration_phone_info_subtitle" = "Miért kérjük el a mobilszámát?";
+
+"registration_phone_info_title" = "Mobilszám megadása";
+
+"registration_start_email_title" = "E-mail cím";
+
+"registration_start_error_phone_number_in_use" = "Ezzel a mobilszámmal már regisztráltak. Ha helyes a szám, lépjen vissza, és jelentkezzen be!";
+
+"registration_start_error_phone_number_not_whitelisted" = "Ezzel a mobilszámmal nem tud regisztrálni.";
+
+"registration_start_error_phone_number_temporary_blocked" = "Próbálja újra %1$d óra %2$d perc múlva!";
+
+"registration_start_phone_number_title" = "Mobilszám";
+
+"registration_start_privacy_ios" = "Megnyitottam, elolvastam és elfogadom az {Adatkezelési tájékoztatót}.";
+
+"registration_start_privacy_md" = "Megnyitottam, elolvastam és elfogadom az [Adatkezelési tájékoztatót](privacy_policy).";
+
+"registration_start_privacy_policy" = "Megnyitottam, elolvastam és elfogadom az Adatkezelési tájékoztatót.";
+
+"registration_start_privacy_policy_link" = "Adatkezelési tájékoztatót";
+
+"registration_start_screen_title" = "Regisztráció";
+
+"registration_start_subtitle" = "Erre a számra fogjuk elküldeni a mobilszám megerősítéséhez szükséges SMS kódot.";
+
+"registration_start_terms_ios" = "Megnyitottam, elolvastam és elfogadom a {Felhasználási feltételeket}.";
+
+"registration_start_terms_md" = "Megnyitottam, elolvastam és elfogadom a [Felhasználási feltételeket](terms_and_conditions).";
+
+"registration_start_terms_of_use" = "Megnyitottam, elolvastam és elfogadom a Felhasználási feltételeket.";
+
+"registration_start_terms_of_use_link" = "Felhasználási feltételeket";
+
+"registration_start_title" = "Adja meg a mobilszámát és az e-mail címét!";
+
+"secondary_id_about_markdown" = "##### Mi a másodlagos azonosító?\nA mobilszámát és az e-mail címét is hozzáadhatja a bankszámlájához, ezeket hívjuk másodlagos azonosítóknak.\n\nHa beállít másodlagos azonosítót, bankszámlaszám helyett elég lesz a mobilszámát vagy az e-mail címét megadnia annak, akitől átutalást vár.\n\n##### Miket állíthat be másodlagos azonosítóként?\nJelenleg csak a számlanyitás során megadott mobilszámát vagy e-mail címét állíthatja be.";
+
+"secondary_id_accept_terms" = "Megnyitottam, elolvastam és elfogadom az {Adatkezelési tájékoztatót}.";
+
+"secondary_id_accept_terms_md" = "Megnyitottam, elolvastam és elfogadom az [Adatkezelési tájékoztatót](privacy_policy).";
+
+"secondary_id_delete_confirmation_dialog_title" = "Másodlagos azonosítók";
+
+"secondary_id_delete_confirmation_option_email" = "E-mail cím törlése";
+
+"secondary_id_delete_confirmation_option_mobile" = "Mobilszám törlése";
+
+"secondary_id_deletion_email" = "E-mail cím törlése";
+
+/* Secondary Id deletion */
+"secondary_id_deletion_mobile" = "Mobilszám törlése";
+
+"secondary_id_deletion_success_email" = "Az e-mail címet töröltük a másodlagos azonosítók közül.";
+
+"secondary_id_deletion_success_mobile" = "Mobilszám törölve.";
+
+/* Secondary Id Not Available */
+"secondary_id_not_available_title" = "A funkció még nem érhető el.";
+
+"secondary_id_other_not_available_description" = "Jelenleg csak a számlanyitás során megadott mobilszámát és e-mail címét állíthatja be másodlagos azonosítóként.";
+
+"secondary_id_privacy_policy_markdown" = "Hozzájárulok, hogy a Magyar Bankholding a nevem, a fizetési számlám IBAN-ját és a hozzárendelt másodlagos azonosítót átadja a központi adatbázist működtető szervezetnek. A szervezet ezeket az adataimat addig kezelheti, amíg a hozzájárulásomat vissza nem vonom, vagy amíg a rendszeres éves adatellenőrzés sikertelenül nem zárul.\n\nTovábbá hozzájárulok, hogy ezeket az adatokat a központi adatbázist működtető szervezet a pénzforgalmi szolgáltatások nyújtása, valamint a fizetési műveletek és azok kezdeményezésére irányuló kérelmek feldolgozása, elszámolása, teljesítése érdekében a fizetési műveletek feldolgozásában, elszámolásában és teljesítésében közreműködő pénzügyi intézmények és pénzügyi intézménynek nem minősülő pénzforgalmi szolgáltatók részére továbbítsa.";
+
+"secondary_id_status_active" = "AKTÍV";
+
+"secondary_id_status_expire_soon" = "HAMAROSAN LEJÁR";
+
+/* Account Details Secondary Id Add Email, Secondary Id Status */
+"secondary_id_status_expired" = "LEJÁRT";
+
+"secondary_id_status_pending_approval" = "AKTIVÁLÁS ALATT";
+
+"secondary_id_tax_number_not_available_description" = "Ha adóazonosító jelet szeretne beállítani másodlagos azonosítóként, kérjük, keresse fel bármelyik bankfiókunkat!";
+
+"secondary_id_type_email" = "E-mail cím";
+
+"secondary_id_type_mobile" = "Mobilszám";
+
+"secondary_id_type_taxnr" = "Adóazonosító jel";
+
+"secondary_id_type_unknown" = "Ismeretlen";
+
+"start_description" = "Ha még nem használta az appot, először pár lépésben regisztrálnia kell.";
+
+/* Registration */
+"start_device_activation" = "Bejelentkezés";
+
+"start_greeting_afternoon" = "Jó napot!";
+
+"start_greeting_morning" = "Jó reggelt!";
+
+"start_greeting_night" = "Jó estét";
+
+"start_registration" = "Regisztráció elkezdése";
+
+"terms_of_use_title" = "Felhasználási feltételek";
+
+"testflight_feedback_reminder" = "Belefutott egy hibába? Vannak ötletei, hogy mitől lehetne még jobb az app? Küldje el nekünk!\n\n##### Hogyan küldjön visszajelzést?\n1. Készítsen képernyőfotót.\n2. Koppintson a képernyő alján felugró képre, majd a Kész gombra.\n3. Válassza ki a Bétaszoftver visszajelzésének megosztása opciót.\n4. Írja meg röviden a visszajelzését.\n\nA visszajelzést azonnal megkapjuk, és felhasználjuk a fejlesztés során.";
+
+"today" = "Ma";
+
+"transaction_amount" = "Összeg";
+
+"transaction_details_account_number_title" = "Bankszámlaszám";
+
+"transaction_details_beneficiary_data_title" = "Kedvezményezett adatai";
+
+"transaction_details_debtor_data_title" = "Feladó adatai";
+
+"transaction_details_details_title" = "Részletek";
+
+"transaction_details_name_title" = "Név";
+
+"transaction_details_notice_hint" = "Nem adott meg közleményt.";
+
+"transaction_details_notice_title" = "Közlemény";
+
+"transaction_details_status_title" = "Státusz";
+
+"transaction_details_title" = "Tranzakció részletei";
+
+"transaction_details_transaction_fee" = "+ Tranzakciós díj: %@";
+
+"transaction_details_transaction_id_title" = "Tranzakció azonosító";
+
+"transaction_history_empty_state_description" = "Még nincsenek tranzakciói.";
+
+"transaction_rejection_exceeded_limit" = "Limittúllépés: napi átutalási limit";
+
+"transaction_rejection_generic" = "Átutalás visszautasítva";
+
+"transaction_rejection_insufficient_balance" = "Fedezethiány";
+
+"transaction_rejection_invalid_account_number" = "Bankszámlaszám nem létezik vagy megszűnt";
+
+"transaction_rejection_not_intrabank" = "Nem Magyar Bankholdingnál vezetett bankszámlaszámot adott meg.";
+
+"transaction_rejection_technical_problem" = "Technikai probléma";
+
+"transaction_status_booked" = "Kész, könyvelve";
+
+"transaction_status_rejected" = "Sikertelen";
+
+"transaction_status_under_booking" = "Folyamatban";
+
+"transaction_status_under_booking_description" = "Az összeget már levontuk az elérhető egyenlegéből, de a tranzakció még feldolgozás alatt van.";
+
+"transactions_title" = "Tranzakciók";
+
+"transactions_transaction_fee_title" = "Tranzakciós díj";
+
+"yesterday" = "Tegnap";
+

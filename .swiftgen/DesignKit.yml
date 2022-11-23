@@ -1,0 +1,19 @@
+# Assets
+ xcassets:
+   inputs:
+     - ../DesignKit/Resources/Colors.xcassets
+     - ../DesignKit/Resources/Images.xcassets
+   outputs:
+       templatePath: swiftui-assets.stencil
+       params:
+         publicAccess: true
+       output: ../DesignKit/Resources/Assets.generated.swift
+
+# Fonts
+ fonts:
+   inputs: ../DesignKit/Resources/Fonts
+   outputs:
+     templatePath: swiftui-fonts.stencil
+     params:
+       publicAccess: true
+     output: ../DesignKit/Resources/Fonts.generated.swift

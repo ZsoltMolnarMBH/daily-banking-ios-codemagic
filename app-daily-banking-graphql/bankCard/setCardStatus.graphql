@@ -1,0 +1,11 @@
+mutation setCardStatus (
+    $cardStatus: CardStatus!,
+    $cardToken: String!
+) {
+    setCardStatus (
+        cardStatus: $cardStatus,
+        cardToken: $cardToken
+    ) {
+        transactionId
+    }
+}

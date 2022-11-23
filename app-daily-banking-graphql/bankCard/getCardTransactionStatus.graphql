@@ -1,0 +1,12 @@
+query getCardTransactionStatus (
+    $transactionId: String!
+) {
+    getCardTransactionStatus (
+        transactionId: $transactionId
+    ) {
+        result
+        error {
+            ...UserTransactionErrorFragment
+        }
+    }
+}

@@ -1,0 +1,13 @@
+query cardPin (
+    $encryptedKey: String!
+    $cardToken: String!
+) {
+    cardPin (
+        encryptedKey: $encryptedKey
+        cardToken: $cardToken
+    ) {
+        encryptedPin {
+            ...SecureFlowFragment
+        }
+    }
+}

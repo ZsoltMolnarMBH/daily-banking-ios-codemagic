@@ -1,0 +1,21 @@
+mutation changeCardLimit(
+    $limits: [ChangeCardLimitInput!]!,
+    $cardToken: String!
+) {
+    changeCardLimit(
+        limits: $limits,
+        cardToken: $cardToken
+    ) {
+        cardLimits {
+            cashWithdrawalLimit {
+                ...CardLimitFragment
+            }
+            posLimit {
+                ...CardLimitFragment
+            }
+            vposLimit {
+                ...CardLimitFragment
+            }
+        }
+    }
+}

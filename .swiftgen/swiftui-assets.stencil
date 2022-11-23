@@ -1,0 +1,67 @@
+// Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
+
+{% if catalogs %}
+{% set accessModifier %}{% if param.publicAccess %}public{% else %}internal{% endif %}{% endset %}
+import SwiftUI
+{% macro casesBlock assets %}
+  {% for asset in assets %}
+  {% if asset.items and asset.isNamespaced == "true" %}
+  {{accessModifier}} enum {{asset.name|swiftIdentifier:"pretty"|escapeReservedKeywords}} {
+    {% filter indent:2 %}{% call casesBlock asset.items %}{% endfilter %}
+  }
+  {% elif asset.items %}
+  {% call casesBlock asset.items %}
+  {% elif asset.type == "color" %}
+    {{accessModifier}} static let {{asset.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}} = Color("{{asset.value}}")
+  {% elif asset.type == "image" %}
+    {{accessModifier}} static let {{asset.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}} = ImageName("{{asset.value}}")
+  {% endif %}
+  {% endfor %}
+{% endmacro %}
+
+// swiftlint:disable all
+
+{{accessModifier}} enum Colors {
+  {% for catalog in catalogs %}
+  {% if catalog.name == "Colors" %}
+  {% call casesBlock catalog.assets %}
+  {% endif %}
+  {% endfor %}
+}
+
+{{accessModifier}} struct ImageName: ExpressibleByStringLiteral, Hashable, Equatable {
+    {{accessModifier}} let rawValue: String
+    {{accessModifier}} init(_ rawValue: String) {
+        self.rawValue = rawValue
+    }
+    {{accessModifier}} init(stringLiteral: String) {
+        self.rawValue = stringLiteral
+    }
+    {{accessModifier}} static func name(fromString string: String?) -> Self? {
+        if let string = string { return ImageName(string) }
+        return nil
+    }
+    static {{accessModifier}} func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.rawValue == rhs.rawValue
+    }
+    {{accessModifier}} func hash(into hasher: inout Hasher) {
+        hasher.combine(rawValue)
+    }
+
+    {% for catalog in catalogs %}
+    {% if catalog.name == "Images" %}
+    {% call casesBlock catalog.assets %}
+    {% endif %}
+    {% endfor %}
+}
+
+{{accessModifier}} extension Image {
+    init(_ imageName: ImageName) {
+        self.init(imageName.rawValue)
+    }
+}
+
+// swiftlint:enable all
+{% else %}
+// No assets found
+{% endif %}

@@ -1,0 +1,13 @@
+mutation proxyIdCreate (
+    $alias: String!,
+    $bic: String!,
+    $iban: String!
+) {
+    proxyIdCreate (
+        alias: $alias,
+        bic: $bic,
+        iban: $iban,
+    ) {
+        status
+    }
+}

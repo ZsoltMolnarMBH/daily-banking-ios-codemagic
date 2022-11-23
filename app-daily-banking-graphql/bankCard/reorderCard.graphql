@@ -1,0 +1,13 @@
+mutation ReorderCard(
+    $cardToken: String!,
+    $encryptedKey: String!,
+    $epin: Epin!
+) {
+    reorderCard(
+        cardToken: $cardToken
+            encryptedKey: $encryptedKey
+        epin: $epin
+    ) {
+        transactionId
+    }
+}

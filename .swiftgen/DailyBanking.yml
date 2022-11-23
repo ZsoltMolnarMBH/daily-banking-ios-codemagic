@@ -1,0 +1,19 @@
+strings:
+  inputs:
+    - ../DailyBanking/Resources/hu.lproj
+  outputs:
+    templateName: flat-swift5
+    params:
+      enumName: Strings
+    output: ../DailyBanking/Resources/Strings.generated.swift
+xcassets:
+  inputs:
+    - ../DailyBanking/Resources/Images.xcassets
+  outputs:
+    templatePath: swiftui-assets.stencil
+    output: ../DailyBanking/Resources/Assets.generated.swift
+json:
+  inputs: ../DailyBanking/Resources/Lottie
+  outputs:
+    templatePath: lottie.stencil
+    output: ../DailyBanking/Resources/Lottie.generated.swift

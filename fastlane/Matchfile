@@ -1,0 +1,9 @@
+git_url("git@github.com:Magyar-Bankholding-Zrt/app-daily-banking-ios-certificates.git")
+
+storage_mode("git")
+
+type("appstore")
+
+app_identifier(["com.mbh.dailybanking"])
+
+username("buildbot.mobile@magyarbankholding.hu") # Your Apple Developer Portal username

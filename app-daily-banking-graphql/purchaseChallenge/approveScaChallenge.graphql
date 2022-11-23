@@ -1,0 +1,9 @@
+mutation approveScaChallenge(
+    $scaChallengeId: String!
+){
+    approveScaChallenge(
+        scaChallengeId: $scaChallengeId
+    ){
+        status
+    }
+}

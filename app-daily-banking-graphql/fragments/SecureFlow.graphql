@@ -1,0 +1,4 @@
+fragment SecureFlowFragment on SecureFlowResponse {
+    iv
+    data
+}

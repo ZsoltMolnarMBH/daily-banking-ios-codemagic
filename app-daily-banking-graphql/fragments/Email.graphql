@@ -1,0 +1,4 @@
+fragment EmailFragment on Email {
+    address
+    verified
+}

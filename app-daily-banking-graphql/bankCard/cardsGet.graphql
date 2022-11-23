@@ -1,0 +1,29 @@
+query cardsGet (
+    $accountId: String!
+) {
+    cardsGet (
+        accountId: $accountId
+    ) {
+        cardToken
+        nameOnCard
+        lastNumbers
+        type
+        imageName
+        status
+        limits {
+            cashWithdrawalLimit {
+                ...CardLimitFragment
+            }
+            posLimit {
+                ...CardLimitFragment
+            }
+            vposLimit {
+                ...CardLimitFragment
+            }
+        }
+        cardErrors {
+            ...UserTransactionErrorFragment
+        }
+        reordered
+    }
+}

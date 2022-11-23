@@ -1,0 +1,7 @@
+query getContractInfo {
+    getApplication {
+        contractInfo {
+            ...ContractInfoFragment
+        }
+    }
+}

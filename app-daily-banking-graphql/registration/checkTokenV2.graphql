@@ -1,0 +1,9 @@
+query checkTokenV2(
+    $otp: String!
+){
+    checkTokenV2(
+        otp: $otp
+  ) {
+    status
+  }
+}

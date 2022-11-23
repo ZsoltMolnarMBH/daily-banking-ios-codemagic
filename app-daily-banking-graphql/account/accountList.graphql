@@ -1,0 +1,5 @@
+query accountList {
+    accountsList {
+        ...AccountFragment
+    }
+}

@@ -1,0 +1,36 @@
+included: # paths to include during linting. `--path` is ignored if present.
+  - .
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - ./*.generated.swift
+  - Utils
+
+only_rules:
+  - custom_rules
+
+custom_rules:
+  basetestcase_instead_xctestcase: # rule identifier
+    included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+    name: "BaseTestCase instead XCTestCase" # rule name. optional.
+    regex: "(XCTestCase)" # matching pattern
+    capture_group: 0 # number of regex capture group to highlight the rule violation at. optional.
+    match_kinds: # SyntaxKinds to match. optional.
+      - typeidentifier
+    message: "Please use `BaseTestCase` instead `XCTestCase`, so DI environment is cleansed between test cases."
+    severity: error # violation severity. optional.
+
+  setUpWithError: # rule identifier
+    included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+    name: "setUpWithError" # rule name. optional.
+    regex: "(setUpWithError)" # matching pattern
+    capture_group: 0 # number of regex capture group to highlight the rule violation at. optional.
+    message: "Please use `setUp()` instead `setUpWithError()`, or make sure to call `super.setUpWithError()` and suppress this warning"
+    severity: warning # violation severity. optional.
+
+  tearDownWithError: # rule identifier
+    included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+    name: "tearDownWithError" # rule name. optional.
+    regex: "(tearDownWithError)" # matching pattern
+    capture_group: 0 # number of regex capture group to highlight the rule violation at. optional.
+    message: "Please use `tearDown()` instead `tearDownWithError()`, or make sure to call `super.tearDownWithError()` and suppress this warning"
+    severity: warning # violation severity. optional.

@@ -1,0 +1,9 @@
+mutation closeAccount(
+    $input: CloseAccountInput!
+) {
+    closeAccount(
+        input: $input
+    ) {
+        ...AccountFragment
+    }
+}

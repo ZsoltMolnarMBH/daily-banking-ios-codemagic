@@ -1,0 +1,7 @@
+fragment AddressFragment on Address {
+    city
+    country
+    houseNumber
+    postCode
+    streetName
+}

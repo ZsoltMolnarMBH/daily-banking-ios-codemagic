@@ -1,0 +1,12 @@
+query getAccountClosureStatement(
+    $accountId: String!
+) {
+    getAccountClosureStatement(
+        accountId: $accountId
+    ) {
+        expiresAt,
+        contractInfo {
+            ...AccountClosureStatementInfoFragment
+        }
+    }
+}

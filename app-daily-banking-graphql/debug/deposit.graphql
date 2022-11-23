@@ -1,0 +1,11 @@
+mutation deposit (
+    $accountId: String!,
+    $amount: Float!
+) {
+    deposit (
+        accountId: $accountId,
+        amount: $amount
+    ) {
+        status
+    }
+}

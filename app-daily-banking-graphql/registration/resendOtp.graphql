@@ -1,0 +1,14 @@
+query resendOtp (
+    $deviceId: String!,
+    $phoneNumber: String!
+) {
+    getOtp (
+        deviceId: $deviceId,
+        phoneNumber: $phoneNumber
+    ) {
+        remainingAttempts
+        otpInfo {
+            ...OtpInfoFragment
+        }
+    }
+}

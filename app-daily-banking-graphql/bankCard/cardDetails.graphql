@@ -1,0 +1,18 @@
+query cardDetails (
+    $encryptedKey: String!
+    $cardToken: String!
+) {
+    cardDetails (
+        encryptedKey: $encryptedKey
+        cardToken: $cardToken
+    ) {
+        encryptedPan {
+            ...SecureFlowFragment
+        }
+        encryptedCvc {
+            ...SecureFlowFragment
+        }
+        expDate
+        nameOnCard
+    }
+}

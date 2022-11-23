@@ -1,0 +1,5 @@
+mutation setPushToken($token: String) {
+    setPushToken(pushToken: $token) {
+        status
+    }
+}

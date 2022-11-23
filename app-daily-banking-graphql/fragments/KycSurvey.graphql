@@ -1,0 +1,11 @@
+fragment KycSurveyFragment on KycSurvey {
+    incomingSources {
+        ...IncomingSourcesFragment
+    }
+    depositPlan {
+        ...PlanFragment
+    }
+    transferPlan {
+        ...PlanFragment
+    }
+}

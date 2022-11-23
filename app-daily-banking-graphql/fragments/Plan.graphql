@@ -1,0 +1,5 @@
+fragment PlanFragment on Plan {
+    amountFrom
+    amountTo
+    currency
+}

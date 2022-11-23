@@ -1,0 +1,9 @@
+mutation changeEmail (
+    $email: String!,
+) {
+    changeEmail (
+        email: $email,
+    ) {
+        nextRequestInterval
+    }
+}

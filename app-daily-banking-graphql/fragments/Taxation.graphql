@@ -1,0 +1,4 @@
+fragment TaxationFragment on Taxation {
+    country
+    taxNumber
+}

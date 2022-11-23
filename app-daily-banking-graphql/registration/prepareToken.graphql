@@ -1,0 +1,11 @@
+mutation prepareToken(
+    $timestamp: String!,
+    $device: String!,
+    $deviceId: String!
+) {
+    prepareToken(
+        timestamp: $timestamp,
+        device: $device,
+        deviceId: $deviceId
+  )
+}

@@ -1,0 +1,5 @@
+query resendVerificationEmail {
+    getVerificationEmail {
+        nextRequestInterval
+    }
+}

@@ -1,0 +1,13 @@
+query login (
+    $otp: String!,
+    $phoneNumber: String!,
+    $deviceId: String!
+) {
+    login (
+        otp: $otp,
+        phoneNumber: $phoneNumber,
+        deviceId: $deviceId
+    ) {
+        ...TokenFragment
+    }
+}

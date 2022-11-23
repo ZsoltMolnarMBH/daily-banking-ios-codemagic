@@ -1,0 +1,9 @@
+query getDailyLimitRemaining(
+    $iban: String!
+){
+    getDailyLimitRemaining(
+      iban: $iban
+    ) {
+        ...MoneyFragment
+    }
+}

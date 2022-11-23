@@ -1,0 +1,18 @@
+mutation prepareTokenV2(
+    $timestamp: String!,
+    $dhParams: String!,
+    $dhClient: String!,
+    $device: String!,
+    $deviceId: String!
+) {
+    prepareTokenV2(
+        timestamp: $timestamp,
+        dhParams: $dhParams,
+        dhClient: $dhClient,
+        device: $device,
+        deviceId: $deviceId
+    ) {
+        token
+        dhServer
+    }
+}

@@ -1,0 +1,6 @@
+fragment AccountInfoFragment on AccountInfo {
+    polling
+    successful
+    accountId
+    error
+}

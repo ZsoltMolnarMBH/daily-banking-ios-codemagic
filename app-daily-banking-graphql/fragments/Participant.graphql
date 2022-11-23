@@ -1,0 +1,7 @@
+fragment ParticipantFragment on Participant {
+    name
+    account {
+        identificationType
+        identification
+    }
+}

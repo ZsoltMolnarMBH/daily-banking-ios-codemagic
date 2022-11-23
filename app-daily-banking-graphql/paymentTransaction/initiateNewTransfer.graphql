@@ -1,0 +1,15 @@
+mutation initiateNewTransfer(
+    $input: InitiateNewTransferInput!
+) {
+    initiateNewTransfer(input: $input) {
+        id
+    }
+}
+
+mutation initiateNewTransferV2(
+    $input: InitiateNewTransferInput!
+) {
+    initiateNewTransferV2(input: $input) {
+        id
+    }
+}

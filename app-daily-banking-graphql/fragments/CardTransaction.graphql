@@ -1,0 +1,21 @@
+fragment CardTransactionFragment on CardTransaction {
+    billingMoney {
+        ...MoneyFragment
+    }
+    cardPanLastFourDigits
+    cardTransactionType
+    createdAt
+    declineReason
+    direction
+    exchangeRate
+    id
+    merchantName
+    modified_at
+    money {
+        ...MoneyFragment
+    }
+    settlementDate
+    status
+    valueDate
+    violatedLimits
+}

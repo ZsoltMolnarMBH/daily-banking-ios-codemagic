@@ -1,0 +1,4 @@
+fragment BalanceFragment on Balance {
+    netAmount
+    currency
+}

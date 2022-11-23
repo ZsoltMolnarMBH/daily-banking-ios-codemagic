@@ -1,0 +1,5 @@
+fragment DocumentFragment on Document {
+    serial
+    type
+    validUntil
+}

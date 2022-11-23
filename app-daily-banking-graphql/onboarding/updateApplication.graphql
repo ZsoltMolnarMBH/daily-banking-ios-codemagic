@@ -1,0 +1,9 @@
+mutation updateApplication (
+    $application: ApplicationInput!
+) {
+    updateApplication (
+        application: $application
+    ) {
+        status
+    }
+}

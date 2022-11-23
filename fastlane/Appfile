@@ -1,0 +1,5 @@
+app_identifier("com.mbh.dailybanking") # The bundle identifier of your app
+apple_id("buildbot.mobile@magyarbankholding.hu") # Your Apple email address
+
+itc_team_id("539003") # App Store Connect Team ID
+team_id("CDN44FEZP9") # Developer Portal Team ID

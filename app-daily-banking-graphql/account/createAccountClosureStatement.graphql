@@ -1,0 +1,9 @@
+mutation createAccountClosureStatement(
+    $input: CreateAccountClosureStatementInput!
+) {
+    createAccountClosureStatement(
+        input: $input
+    ) {
+        status
+    }
+}

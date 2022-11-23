@@ -1,0 +1,4 @@
+fragment NameFragment on Name {
+    firstName
+    lastName
+}

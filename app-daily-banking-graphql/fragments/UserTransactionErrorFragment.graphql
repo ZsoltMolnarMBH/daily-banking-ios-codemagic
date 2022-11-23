@@ -1,0 +1,10 @@
+fragment UserTransactionErrorFragment on UserTransactionError {
+    code
+    error
+    message
+    name
+    sourceService
+    stack
+    statusCode
+    type
+}

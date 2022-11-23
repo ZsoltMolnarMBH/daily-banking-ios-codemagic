@@ -1,0 +1,7 @@
+query getContract (
+    $contractId: String!
+) {
+    getContract (
+        contractId: $contractId
+    )
+}

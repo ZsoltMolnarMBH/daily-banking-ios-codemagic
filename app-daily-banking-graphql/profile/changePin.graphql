@@ -1,0 +1,5 @@
+query changePin($otp: String!) {
+    changePin(otp: $otp) {
+        status
+    }
+}

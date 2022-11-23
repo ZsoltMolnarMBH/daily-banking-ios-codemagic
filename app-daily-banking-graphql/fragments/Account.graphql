@@ -1,0 +1,39 @@
+fragment AccountFragment on Account {
+    id
+        accountNumber
+        accountId
+        acceptedDate
+        accountingUnitType
+        accountingUnitSubType
+        currency
+        lifecycleStatus
+        swift
+        iban
+        source
+        flags
+        limits {
+            dailyTransferLimit {
+                name
+                value
+                min
+                max
+            }
+        }
+        arrearsBalance {
+          ...BalanceFragment
+        }
+        blockedBalance {
+          ...BalanceFragment
+        }
+        availableBalance {
+          ...BalanceFragment
+        }
+        bookedBalance {
+          ...BalanceFragment
+        }
+        proxyIds {
+            alias
+            status
+            type
+        }
+}

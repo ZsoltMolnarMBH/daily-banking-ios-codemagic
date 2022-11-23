@@ -1,0 +1,17 @@
+sourceryCommand: null
+sourceryTemplate: null
+DailyBankingTests:
+  sources:
+    include:
+    - ./DailyBanking
+  output: ./DailyBanking/Tests/Mock.generated.swift
+  targets:
+  - DailyBankingTests
+  testable:
+  - DailyBanking
+  import:
+  - Foundation
+  - Combine
+  - Apollo
+  - CryptoKit
+  - FaceKomSDK

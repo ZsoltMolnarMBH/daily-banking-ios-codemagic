@@ -1,0 +1,14 @@
+query renewSession (
+    $otp: String!,
+    $phoneNumber: String!,
+    $deviceId: String!
+) {
+    renewSession (
+        otp: $otp,
+        phoneNumber: $phoneNumber,
+        deviceId: $deviceId
+    ) {
+        ...TokenFragment
+    }
+}
+

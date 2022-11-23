@@ -1,0 +1,9 @@
+mutation declineScaChallenge(
+    $scaChallengeId: String!
+){
+    declineScaChallenge(
+        scaChallengeId: $scaChallengeId
+    ){
+        status
+    }
+}

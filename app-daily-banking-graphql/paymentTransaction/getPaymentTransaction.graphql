@@ -1,0 +1,5 @@
+query getPaymentTransactions($transactionId: String!) {
+    getPaymentTransaction(transactionId: $transactionId) {
+        ...PaymentTransactionFragment
+    }
+}

@@ -1,0 +1,4 @@
+fragment OtpInfoFragment on OtpInfo {
+    expireInterval
+    nextRequestInterval
+}

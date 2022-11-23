@@ -1,0 +1,125 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+    setup_circle_ci
+  end
+
+  lane :tests do
+    run_tests(
+      devices: ["iPhone 12"],
+      scheme: "DailyBanking",
+      code_coverage: true,
+      skip_testing: ["DailyBankingUITests"]
+    )
+    slather(
+      sonarqube_xml: true,
+      proj: "DailyBanking.xcodeproj",
+      scheme: "DailyBanking",
+      workspace: "DailyBanking.xcworkspace",
+      output_directory: "./output/coverage",
+      ignore: [
+        "BankAPI/*",
+        "DesignKit/*",
+        "fastlane/*",
+        "output/*",
+        "Pods/*",
+        "scripts/*",
+        "DailyBanking/Resources/*",
+        "DailyBanking/Preview Content/*",
+        "DailyBanking/Tests/*",
+        "DailyBanking/UITests/*"
+      ]
+    )
+  end
+
+  lane :ui_tests do
+    run_tests(
+      device: "iPhone 13",
+      scheme: "DailyBanking",
+      skip_testing: ["DailyBankingTests"],
+      result_bundle: true,
+      clean: true,
+      configuration: "Debug"
+    )
+  end
+
+  lane :build do |options|
+    increment_build_number(
+      build_number: options[:build_number]
+    )
+    match
+    build_app(
+      scheme: "DailyBanking",
+      configuration: options.fetch(:configuration, "Internal"),
+      export_method: "app-store"
+    )
+    app_store_connect_api_key(
+      key_id: "4Y7N7US4BS",
+      issuer_id: "69a6de72-d3ff-47e3-e053-5b8c7c11a4d1",
+      key_content: ENV["APP_STORE_CONNECT_API_KEY_CONTENT"]
+    )
+
+    commit = last_git_commit
+    changelog = options.fetch(:configuration, "") == "Internal" ? "#{git_branch} branch\n#{commit[:message]}" : ""
+    
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+      apple_id: "1598162846",
+      changelog: changelog
+    )
+  end
+
+  lane :nightly_dsyms do
+    upload_date = Date.today.prev_day.strftime
+
+    app_store_connect_api_key(
+      key_id: "4Y7N7US4BS",
+      issuer_id: "69a6de72-d3ff-47e3-e053-5b8c7c11a4d1",
+      key_content: ENV["APP_STORE_CONNECT_API_KEY_CONTENT"]
+    )
+    download_dsyms(after_uploaded_date: upload_date)
+    upload_symbols_to_crashlytics
+    clean_build_artifacts
+  end
+
+  lane :all_dsyms do
+    app_store_connect_api_key(
+      key_id: "4Y7N7US4BS",
+      issuer_id: "69a6de72-d3ff-47e3-e053-5b8c7c11a4d1",
+      key_content: ENV["APP_STORE_CONNECT_API_KEY_CONTENT"]
+    )
+    download_dsyms
+    upload_symbols_to_crashlytics 
+    clean_build_artifacts
+  end
+
+  lane :latest_dsym do
+    app_store_connect_api_key(
+      key_id: "4Y7N7US4BS",
+      issuer_id: "69a6de72-d3ff-47e3-e053-5b8c7c11a4d1",
+      key_content: ENV["APP_STORE_CONNECT_API_KEY_CONTENT"]
+    )
+    download_dsyms(
+      wait_for_dsym_processing: true,
+      version: "latest"
+    )
+    upload_symbols_to_crashlytics 
+    clean_build_artifacts
+  end
+end

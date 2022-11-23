@@ -1,0 +1,32 @@
+fragment IndividualFragment on Individual {
+    legalName {
+        ...NameFragment
+    }
+    birthName {
+        ...NameFragment
+    }
+    birthData {
+        countryOfBirth
+        placeOfBirth
+        dateOfBirth
+        motherName
+    }
+    legalAddress {
+        ...AddressFragment
+    }
+    correspondenceAddress {
+        ...AddressFragment
+    }
+    identityCardDocument {
+        ...DocumentFragment
+    }
+    addressCardDocument {
+        ...DocumentFragment
+    }
+    mainEmail {
+        ...EmailFragment
+    }
+    mobilePhone {
+        ...PhoneFragment
+    }
+}

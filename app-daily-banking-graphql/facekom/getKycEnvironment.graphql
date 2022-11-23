@@ -1,0 +1,6 @@
+query getKycEnvironment {
+    getKycTokenV2 {
+        sdkToken
+        sdkUrl
+    }
+}

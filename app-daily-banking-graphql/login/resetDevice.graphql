@@ -1,0 +1,5 @@
+mutation resetDevice($deviceId: String!) {
+  resetDevice(deviceId: $deviceId) {
+      status
+  }
+}

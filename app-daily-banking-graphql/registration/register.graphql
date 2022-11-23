@@ -1,0 +1,20 @@
+mutation register (
+    $email: String!,
+    $password: String!,
+    $phoneNumber: String!,
+    $device: String!,
+    $deviceId: String!
+) {
+    register (
+        email: $email,
+        password: $password,
+        phoneNumber: $phoneNumber,
+        device: $device,
+        deviceId: $deviceId
+    ) {
+        temporaryToken
+        otpInfo {
+            ...OtpInfoFragment
+        }
+    }
+}

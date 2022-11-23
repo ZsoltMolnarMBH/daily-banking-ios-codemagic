@@ -1,0 +1,12 @@
+fragment ScaChallengeFragment on ScaChallenge {
+    id
+    userId
+    cardToken
+    merchant
+    amount
+    currency
+    challengedAt
+    expiresAfter
+    status
+    lastDigits
+}

@@ -1,0 +1,5 @@
+fragment StatementFragment on Statement {
+    statementId
+    periodStart
+    periodEnd
+}

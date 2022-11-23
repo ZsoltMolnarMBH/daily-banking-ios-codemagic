@@ -1,0 +1,20 @@
+phrase:
+  project_id: af0a112a637bd712d38ae14fbad0b3b4
+  push:
+    sources:
+    - file: ./DailyBanking/Resources/hu.lproj/Localizable.strings
+      params:
+        update_translations: false
+        locale_id: hu
+        file_format: strings
+        format_options:
+            convert_placeholder: true
+
+  pull:
+    targets:
+    - file: ./DailyBanking/Resources/<locale_code>.lproj/Localizable.strings
+      params:
+        file_format: strings
+        encoding: UTF-8
+        format_options:
+            convert_placeholder: true

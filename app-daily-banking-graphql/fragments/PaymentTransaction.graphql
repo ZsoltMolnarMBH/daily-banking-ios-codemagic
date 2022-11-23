@@ -1,0 +1,21 @@
+fragment PaymentTransactionFragment on PaymentTransaction {
+    money {
+        ...MoneyFragment
+    }
+    fee {
+        ...MoneyFragment
+    }
+    debtor {
+        ...ParticipantFragment
+    }
+    creditor {
+        ...ParticipantFragment
+    }
+    paymentReference
+    direction
+    status
+    id
+    createdAt
+    settlementDate
+    rejectionReason
+}

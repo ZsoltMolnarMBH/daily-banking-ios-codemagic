@@ -1,0 +1,7 @@
+query getAccountInfo {
+    getApplication {
+        accountInfo {
+            ...AccountInfoFragment
+        }
+    }
+}

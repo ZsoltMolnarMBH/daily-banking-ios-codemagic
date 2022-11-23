@@ -1,0 +1,4 @@
+fragment IncomingSourcesFragment on IncomingSources {
+    salary
+    other
+}

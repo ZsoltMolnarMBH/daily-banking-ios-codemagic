@@ -1,0 +1,13 @@
+mutation setLimit (
+    $accountId: String!,
+    $limitName: LimitType!,
+    $limitValue: Int!
+) {
+    setLimit (
+        accountId: $accountId,
+        limitName: $limitName,
+        limitValue: $limitValue,
+    ) {
+        ...AccountFragment
+    }
+}

@@ -18,3 +18,4 @@ workflows:
         script: bundle exec pod install
       - name: Run unit tests
         script: bundle exec fastlane tests
+        test_report: output/scan/*.xml

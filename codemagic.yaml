@@ -2,12 +2,12 @@ workflows:
   my-workflow:
     instance_type: mac_mini_m1
     environment:
-      ruby: 2.6.4
+      #ruby: 2.6.4
       xcode: 14.0
     triggering:
       events:
         - push
-      branch_patterns: 
+      branch_patterns:
         - pattern: "*"
     working_directory: mobile
     scripts:

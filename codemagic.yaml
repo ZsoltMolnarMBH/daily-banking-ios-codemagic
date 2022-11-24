@@ -13,7 +13,6 @@ workflows:
     scripts:
       - name: Build iOS
         working_directory: mobile
-        script: |
-          bundle install
+        script: bundle install
           bundle exec pod install
           bundle exec fastlane tests

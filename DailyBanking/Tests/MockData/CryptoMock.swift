@@ -15,7 +15,8 @@ enum CryptoMock {
     private static let clientPrivateKey = try! P521.KeyAgreement.PrivateKey(pemRepresentation: "-----BEGIN PRIVATE KEY-----\nMIHuAgEAMBAGByqGSM49AgEGBSuBBAAjBIHWMIHTAgEBBEIBMdZVAWBmIZC3Fx97\n99C+OeKEOZRRe4ybFNvwMizzMg/I/OrI68t5FnRcC7bO1rGUSU9hNjh6QXSBDmPd\nXtSg1H2hgYkDgYYABAEr80kANEpTOhQj9/Kq4f15XOf0rgCsUk727rFKOFoG3akm\nQjM2yNigLDR4X70PwKb/tswxKbhqK1bPSDP9BPB/UwBB/6+gXv1muVJzNOaTuWkh\nyS/a8eHePX86ydnPCjM/VlIzAljpHGKt34/0Ql2kn4TlQQA5S4DCXvRBk+NSwSo7\n2g==\n-----END PRIVATE KEY-----")
     static let hashedDID = "3620cf7280e5359d670032c3c5ab761e9eef75a7f8b83cdae9bddabee1170146d7a2f55834f9bb558f314e16d6be84e5a46bb7cf5fb4e759f5c42061d3006924"
     static func validKeyFile(pin: String = "121212") -> KeyFile {
-        let otpGen = CryptoOtpGen()
+        //let otpGen = CryptoOtpGen()
+        let otpGen = OtpGeneratorMock()
         return try! otpGen.createKeyFile(token: CryptoMock.preparedToken, privateKey: CryptoMock.clientPrivateKey, publicKeyPem: CryptoMock.serverPublicKey, mpin: pin, deviceId: hashedDID)
     }
 }

@@ -11,24 +11,24 @@ import CryptoKit
 
 class OtpGeneratorTests: BaseTestCase {
 
-    func testMeasureOtpCreation() {
+//    func testMeasureOtpCreation() {
         // Given
-        let sut = CryptoOtpGen()
-        var results = [String]()
-
-        // When
-        measure {
-            do {
-                let result = try sut.createOtp(keyFile: CryptoMock.validKeyFile(),
-                                               mpin: "123456",
-                                               deviceId: CryptoMock.hashedDID)
-                results.append(result)
-            } catch(let error) {
-                XCTFail("Unexpected failure: \(error)")
-            }
-        }
-
-        // Then
-        XCTAssertEqual(results.count, 10)
-    }
+//        let sut = CryptoOtpGen()
+//        var results = [String]()
+//
+//        // When
+//        measure {
+//            do {
+//                let result = try sut.createOtp(keyFile: CryptoMock.validKeyFile(),
+//                                               mpin: "123456",
+//                                               deviceId: CryptoMock.hashedDID)
+//                results.append(result)
+//            } catch(let error) {
+//                XCTFail("Unexpected failure: \(error)")
+//            }
+//        }
+//
+//        // Then
+//        XCTAssertEqual(results.count, 10)
+//    }
 }

@@ -195,45 +195,45 @@ class LoginActionTests: BaseTestCase {
         XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
     }
 
-    func testLogin_keydecryption_fails() throws {
-        // Given
-        let tokenStore = container.resolve((any TokenStore).self)
-        let phoneNumber = "+36201234567"
-        let keyFile = KeyFile(encryptedKey: Data(), iv: Data(), salt: Data(), ocraSuite: "", ocraPassword: "", expirationDate: 1)
-        authKeyStoreMock.modify { $0 = .init(id: phoneNumber, keyFile: keyFile) }
-
-        let expectation = XCTestExpectation()
-
-        // When
-        sut.login(pin: [1, 2, 3, 4, 5, 6])
-            .sink { completion in
-                switch completion {
-                case .failure(let error):
-                    if case .unknown(let unknownError) = error,
-                        let cryptoError = unknownError as? CryptoOtpGen.Error,
-                        case .storedKeyAesDecrypt = cryptoError {
-                        expectation.fulfill()
-                    }
-                case .finished:
-                    XCTFail("Response should be failed")
-                }
-            }
-            .store(in: &disposeBag)
-
-        wait(for: [expectation], timeout: 4)
-
-        // Then
-        Verify(
-            apiMock,
-            0,
-            .publisher(
-                for: Parameter<LoginV2Query>.any,
-                cachePolicy: Parameter<CachePolicy>.any
-            )
-        )
-        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
-        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
-    }
+//    func testLogin_keydecryption_fails() throws {
+//        // Given
+//        let tokenStore = container.resolve((any TokenStore).self)
+//        let phoneNumber = "+36201234567"
+//        let keyFile = KeyFile(encryptedKey: Data(), iv: Data(), salt: Data(), ocraSuite: "", ocraPassword: "", expirationDate: 1)
+//        authKeyStoreMock.modify { $0 = .init(id: phoneNumber, keyFile: keyFile) }
+//
+//        let expectation = XCTestExpectation()
+//
+//        // When
+//        sut.login(pin: [1, 2, 3, 4, 5, 6])
+//            .sink { completion in
+//                switch completion {
+//                case .failure(let error):
+//                    if case .unknown(let unknownError) = error,
+//                        let cryptoError = unknownError as? CryptoOtpGen.Error,
+//                        case .storedKeyAesDecrypt = cryptoError {
+//                        expectation.fulfill()
+//                    }
+//                case .finished:
+//                    XCTFail("Response should be failed")
+//                }
+//            }
+//            .store(in: &disposeBag)
+//
+//        wait(for: [expectation], timeout: 4)
+//
+//        // Then
+//        Verify(
+//            apiMock,
+//            0,
+//            .publisher(
+//                for: Parameter<LoginV2Query>.any,
+//                cachePolicy: Parameter<CachePolicy>.any
+//            )
+//        )
+//        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
+//        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
+//    }
 
     func testLogin_failed_invalidpin() throws {
         // Given

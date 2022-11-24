@@ -414,81 +414,81 @@ class UserActionTests: BaseTestCase {
         Verify(apiMock, 1, .publisher(for: Parameter<CheckTokenV2Query>.any, cachePolicy: .any))
     }
 
-    func testCheckPin_error_force_logout() {
-        // Given
-        let givenPin = [1, 2, 3, 4, 3, 2]
-
-        Given(apiMock, .publisher(
-            for: Parameter<CheckTokenV2Query>.any,
-            cachePolicy: .any,
-            willReturn: .error(graphQL: .forceLogout))
-        )
-
-        authKeyStoreMock.modify { $0 = .init(id: "", keyFile: CryptoMock.validKeyFile()) }
-
-        let expectation = XCTestExpectation()
-        expectation.expectedFulfillmentCount = 1
-        expectation.assertForOverFulfill = true
-
-        // When
-        sut.verify(pin: givenPin)
-            .sink { event in
-                switch event {
-                case .finished:
-                    XCTFail("Event should be failed!")
-                case .failure(let error):
-                    if case .action(let actionError) = error, case .forceLogout = actionError {
-                        expectation.fulfill()
-                    } else {
-                        XCTFail("Invalid error type")
-                    }
-                }
-            }
-            .store(in: &disposeBag)
-
-        // Then
-        wait(for: [expectation], timeout: 4)
-        Verify(apiMock, 1, .publisher(for: Parameter<CheckTokenV2Query>.any, cachePolicy: .any))
-    }
-
-    func testCheckPin_failed_decryption() {
-        // Given
-        let givenPin = [1, 2, 3, 4, 3, 2]
-
-        Given(apiMock, .publisher(
-            for: Parameter<CheckTokenV2Query>.any,
-            cachePolicy: .any,
-            willReturn: .just(CheckTokenV2Query.Data.init(checkTokenV2: .init(status: .error))))
-        )
-
-        authKeyStoreMock.modify { $0 = .init(id: "", keyFile: .init(encryptedKey: Data(), iv: Data(), salt: Data(), ocraSuite: "", ocraPassword: "", expirationDate: 1)) }
-
-        let expectation = XCTestExpectation()
-        expectation.expectedFulfillmentCount = 1
-        expectation.assertForOverFulfill = true
-
-        // When
-        sut.verify(pin: givenPin)
-            .sink { event in
-                switch event {
-                case .finished:
-                    XCTFail("Event should be failed!")
-                case .failure(let error):
-                    if case .unknown(let unknownError) = error,
-                        let cryptoError = unknownError as? CryptoOtpGen.Error,
-                        case .storedKeyAesDecrypt = cryptoError {
-                        expectation.fulfill()
-                    } else {
-                        XCTFail("Invalid error type")
-                    }
-                }
-            }
-            .store(in: &disposeBag)
-
-        // Then
-        wait(for: [expectation], timeout: 4)
-        Verify(apiMock, 0, .publisher(for: Parameter<CheckTokenV2Query>.any, cachePolicy: .any))
-    }
+//    func testCheckPin_error_force_logout() {
+//        // Given
+//        let givenPin = [1, 2, 3, 4, 3, 2]
+//
+//        Given(apiMock, .publisher(
+//            for: Parameter<CheckTokenV2Query>.any,
+//            cachePolicy: .any,
+//            willReturn: .error(graphQL: .forceLogout))
+//        )
+//
+//        authKeyStoreMock.modify { $0 = .init(id: "", keyFile: CryptoMock.validKeyFile()) }
+//
+//        let expectation = XCTestExpectation()
+//        expectation.expectedFulfillmentCount = 1
+//        expectation.assertForOverFulfill = true
+//
+//        // When
+//        sut.verify(pin: givenPin)
+//            .sink { event in
+//                switch event {
+//                case .finished:
+//                    XCTFail("Event should be failed!")
+//                case .failure(let error):
+//                    if case .action(let actionError) = error, case .forceLogout = actionError {
+//                        expectation.fulfill()
+//                    } else {
+//                        XCTFail("Invalid error type")
+//                    }
+//                }
+//            }
+//            .store(in: &disposeBag)
+//
+//        // Then
+//        wait(for: [expectation], timeout: 4)
+//        Verify(apiMock, 1, .publisher(for: Parameter<CheckTokenV2Query>.any, cachePolicy: .any))
+//    }
+//
+//    func testCheckPin_failed_decryption() {
+//        // Given
+//        let givenPin = [1, 2, 3, 4, 3, 2]
+//
+//        Given(apiMock, .publisher(
+//            for: Parameter<CheckTokenV2Query>.any,
+//            cachePolicy: .any,
+//            willReturn: .just(CheckTokenV2Query.Data.init(checkTokenV2: .init(status: .error))))
+//        )
+//
+//        authKeyStoreMock.modify { $0 = .init(id: "", keyFile: .init(encryptedKey: Data(), iv: Data(), salt: Data(), ocraSuite: "", ocraPassword: "", expirationDate: 1)) }
+//
+//        let expectation = XCTestExpectation()
+//        expectation.expectedFulfillmentCount = 1
+//        expectation.assertForOverFulfill = true
+//
+//        // When
+//        sut.verify(pin: givenPin)
+//            .sink { event in
+//                switch event {
+//                case .finished:
+//                    XCTFail("Event should be failed!")
+//                case .failure(let error):
+//                    if case .unknown(let unknownError) = error,
+//                        let cryptoError = unknownError as? CryptoOtpGen.Error,
+//                        case .storedKeyAesDecrypt = cryptoError {
+//                        expectation.fulfill()
+//                    } else {
+//                        XCTFail("Invalid error type")
+//                    }
+//                }
+//            }
+//            .store(in: &disposeBag)
+//
+//        // Then
+//        wait(for: [expectation], timeout: 4)
+//        Verify(apiMock, 0, .publisher(for: Parameter<CheckTokenV2Query>.any, cachePolicy: .any))
+//    }
 
     func testRenewSession_success() {
         // Given
@@ -608,51 +608,51 @@ class UserActionTests: BaseTestCase {
         Verify(apiMock, 1, .publisher(for: Parameter<RenewSessionQuery>.any, cachePolicy: .any))
     }
 
-    func testRenewSession_failed_decryption() {
-        // Given
-        let givenPin = [1, 2, 3, 4, 3, 2]
-        let responseAccessToken = "asdomasdm;asd"
-        let responseRefreshToken = "asnfdansflsavas"
-
-        let mockResponse = RenewSessionQuery.Data(renewSession: .init(
-            accessToken: responseAccessToken,
-            refreshToken: responseRefreshToken)
-        )
-
-        Given(apiMock, .publisher(
-            for: Parameter<RenewSessionQuery>.any,
-            cachePolicy: .any,
-            willReturn: .just(mockResponse))
-        )
-
-        authKeyStoreMock.modify { $0 = .init(id: "", keyFile: .init(encryptedKey: Data(), iv: Data(), salt: Data(), ocraSuite: "", ocraPassword: "", expirationDate: 1)) }
-
-        let expectation = XCTestExpectation()
-        expectation.expectedFulfillmentCount = 1
-        expectation.assertForOverFulfill = true
-
-        // When
-        sut.renewSession(pin: givenPin)
-            .sink { event in
-                switch event {
-                case .finished:
-                    XCTFail("Event should be failed!")
-                case .failure(let error):
-                    if case .unknown(let unknownError) = error,
-                        let cryptoError = unknownError as? CryptoOtpGen.Error,
-                        case .storedKeyAesDecrypt = cryptoError {
-                        expectation.fulfill()
-                    } else {
-                        XCTFail("Invalid error type")
-                    }
-                }
-            }
-            .store(in: &disposeBag)
-
-        // Then
-        wait(for: [expectation], timeout: 4)
-        Verify(apiMock, 0, .publisher(for: Parameter<RenewSessionQuery>.any, cachePolicy: .any))
-    }
+//    func testRenewSession_failed_decryption() {
+//        // Given
+//        let givenPin = [1, 2, 3, 4, 3, 2]
+//        let responseAccessToken = "asdomasdm;asd"
+//        let responseRefreshToken = "asnfdansflsavas"
+//
+//        let mockResponse = RenewSessionQuery.Data(renewSession: .init(
+//            accessToken: responseAccessToken,
+//            refreshToken: responseRefreshToken)
+//        )
+//
+//        Given(apiMock, .publisher(
+//            for: Parameter<RenewSessionQuery>.any,
+//            cachePolicy: .any,
+//            willReturn: .just(mockResponse))
+//        )
+//
+//        authKeyStoreMock.modify { $0 = .init(id: "", keyFile: .init(encryptedKey: Data(), iv: Data(), salt: Data(), ocraSuite: "", ocraPassword: "", expirationDate: 1)) }
+//
+//        let expectation = XCTestExpectation()
+//        expectation.expectedFulfillmentCount = 1
+//        expectation.assertForOverFulfill = true
+//
+//        // When
+//        sut.renewSession(pin: givenPin)
+//            .sink { event in
+//                switch event {
+//                case .finished:
+//                    XCTFail("Event should be failed!")
+//                case .failure(let error):
+//                    if case .unknown(let unknownError) = error,
+//                        let cryptoError = unknownError as? CryptoOtpGen.Error,
+//                        case .storedKeyAesDecrypt = cryptoError {
+//                        expectation.fulfill()
+//                    } else {
+//                        XCTFail("Invalid error type")
+//                    }
+//                }
+//            }
+//            .store(in: &disposeBag)
+//
+//        // Then
+//        wait(for: [expectation], timeout: 4)
+//        Verify(apiMock, 0, .publisher(for: Parameter<RenewSessionQuery>.any, cachePolicy: .any))
+//    }
 
     func testChangeMpin_no_saved_biometry_success() {
         // Given

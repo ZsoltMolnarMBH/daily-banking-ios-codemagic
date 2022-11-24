@@ -8,7 +8,7 @@ workflows:
       events:
         - push
       branch_patterns:
-        - pattern: "*"
+        - pattern: *
     scripts:
       - name: Bundle install
         script: bundle install

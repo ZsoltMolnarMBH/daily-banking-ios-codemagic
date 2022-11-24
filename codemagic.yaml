@@ -9,10 +9,11 @@ workflows:
         - push
       branch_patterns:
         - pattern: "*"
-    working_directory: mobile
+#    working_directory: mobile
     scripts:
-      - name: Build iOS
-        working_directory: mobile
+      - name: Bundle install
         script: bundle install
-          bundle exec pod install
-          bundle exec fastlane tests
+      - name: Pod install
+        script: bundle exec pod install
+      - name: Run unit tests
+        script: bundle exec fastlane tests

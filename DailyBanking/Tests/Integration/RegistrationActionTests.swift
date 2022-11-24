@@ -982,6 +982,7 @@ class RegistrationActionTests: BaseTestCase {
 //        Verify(apiMock, 1, .publisher(for: Parameter<CheckTokenV2Query>.any, cachePolicy: .value(.fetchIgnoringCacheCompletely)))
 //        XCTAssertNotNil(draftStore.state.value.keyFile)
 //    }
+    // asd
 }
 
 private extension GraphQLError {

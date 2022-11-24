@@ -926,62 +926,62 @@ class RegistrationActionTests: BaseTestCase {
     }
 
 
-    func testSetupDeviceAuthentication_Success() throws {
-        // Given
-        let draftStore: any RegistrationDraftStore = container.resolve()
-        let givenPinCode = [1, 2, 2, 2, 2, 2]
-
-        let prepareTokenResponse = Just(PrepareTokenV2Mutation.Data(prepareTokenV2: .init(token: "preparedToken", dhServer: "ServerPublicKey")))
-            .setFailureType(to: Error.self)
-            .eraseToAnyPublisher()
-        Given(apiMock, .publisher(
-            for: Parameter<PrepareTokenV2Mutation>.any,
-            willReturn: prepareTokenResponse)
-        )
-        Given(otpGeneratorMock, .createKeyFile(
-            token: .any,
-            privateKey: .any,
-            publicKeyPem: .any,
-            mpin: .any,
-            deviceId: .any,
-            willReturn: CryptoMock.validKeyFile())
-        )
-        Given(otpGeneratorMock, .createOtp(
-            keyFile: .any,
-            mpin: .any,
-            deviceId: .any,
-            willReturn: "generatedOtp")
-        )
-        let checkTokenResponse = Just(CheckTokenV2Query.Data(checkTokenV2: .init(status: .ok)))
-            .setFailureType(to: Error.self)
-            .eraseToAnyPublisher()
-        Given(apiMock, .publisher(
-            for: Parameter<CheckTokenV2Query>.any,
-            cachePolicy: .any,
-            willReturn: checkTokenResponse)
-        )
-        let expectation = XCTestExpectation()
-        expectation.expectedFulfillmentCount = 1
-        expectation.assertForOverFulfill = true
-
-        // When
-        sut.setupDeviceAuthentication(pin: givenPinCode)
-            .sink { event in
-                switch event {
-                case .finished:
-                    expectation.fulfill()
-                case .failure(let error):
-                    Failure("Unexpected failure: \(error)")
-                }
-            }
-            .store(in: &disposeBag)
-
-        // Then
-        wait(for: [expectation], timeout: 4)
-        Verify(apiMock, 1, .publisher(for: Parameter<PrepareTokenV2Mutation>.any))
-        Verify(apiMock, 1, .publisher(for: Parameter<CheckTokenV2Query>.any, cachePolicy: .value(.fetchIgnoringCacheCompletely)))
-        XCTAssertNotNil(draftStore.state.value.keyFile)
-    }
+//    func testSetupDeviceAuthentication_Success() throws {
+//        // Given
+//        let draftStore: any RegistrationDraftStore = container.resolve()
+//        let givenPinCode = [1, 2, 2, 2, 2, 2]
+//
+//        let prepareTokenResponse = Just(PrepareTokenV2Mutation.Data(prepareTokenV2: .init(token: "preparedToken", dhServer: "ServerPublicKey")))
+//            .setFailureType(to: Error.self)
+//            .eraseToAnyPublisher()
+//        Given(apiMock, .publisher(
+//            for: Parameter<PrepareTokenV2Mutation>.any,
+//            willReturn: prepareTokenResponse)
+//        )
+//        Given(otpGeneratorMock, .createKeyFile(
+//            token: .any,
+//            privateKey: .any,
+//            publicKeyPem: .any,
+//            mpin: .any,
+//            deviceId: .any,
+//            willReturn: CryptoMock.validKeyFile())
+//        )
+//        Given(otpGeneratorMock, .createOtp(
+//            keyFile: .any,
+//            mpin: .any,
+//            deviceId: .any,
+//            willReturn: "generatedOtp")
+//        )
+//        let checkTokenResponse = Just(CheckTokenV2Query.Data(checkTokenV2: .init(status: .ok)))
+//            .setFailureType(to: Error.self)
+//            .eraseToAnyPublisher()
+//        Given(apiMock, .publisher(
+//            for: Parameter<CheckTokenV2Query>.any,
+//            cachePolicy: .any,
+//            willReturn: checkTokenResponse)
+//        )
+//        let expectation = XCTestExpectation()
+//        expectation.expectedFulfillmentCount = 1
+//        expectation.assertForOverFulfill = true
+//
+//        // When
+//        sut.setupDeviceAuthentication(pin: givenPinCode)
+//            .sink { event in
+//                switch event {
+//                case .finished:
+//                    expectation.fulfill()
+//                case .failure(let error):
+//                    Failure("Unexpected failure: \(error)")
+//                }
+//            }
+//            .store(in: &disposeBag)
+//
+//        // Then
+//        wait(for: [expectation], timeout: 4)
+//        Verify(apiMock, 1, .publisher(for: Parameter<PrepareTokenV2Mutation>.any))
+//        Verify(apiMock, 1, .publisher(for: Parameter<CheckTokenV2Query>.any, cachePolicy: .value(.fetchIgnoringCacheCompletely)))
+//        XCTAssertNotNil(draftStore.state.value.keyFile)
+//    }
 }
 
 private extension GraphQLError {

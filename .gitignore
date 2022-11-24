@@ -6,7 +6,7 @@
 !API.Generated.swift
 *.generated.swift
 .mocky*
-
+!BankAPI/GraphQL/API.Generated.swift
 ## Build generated
 build/
 DerivedData/

@@ -1,0 +1,19 @@
+workflows:
+  my-workflow:
+    instance_type: mac_mini_m1
+    environment:
+      ruby: 2.6.4
+      xcode: 14.0
+    triggering:
+      events:
+        - push
+      branch_patterns: 
+        - pattern: "*"
+    working_directory: mobile
+    scripts:
+      - name: Build iOS
+        working_directory: mobile
+        script: |
+          bundle install
+          bundle exec pod install
+          bundle exec fastlane tests

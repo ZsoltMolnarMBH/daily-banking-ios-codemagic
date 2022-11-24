@@ -7,11 +7,6 @@ PODS:
   - Apollo/Core (0.51.2)
   - Confy (0.3.2)
   - CryptoSwift (1.6.0)
-  - FaceKomSDK (2.6.8):
-    - OpenSSL-Universal (= 1.1.180)
-    - Socket.IO-Client-Swift (~> 16.0.1)
-    - Starscream (~> 4.0.4)
-    - XCWebRTC (~> 1.0.0)
   - Firebase/AnalyticsWithoutAdIdSupport (10.1.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics/WithoutAdIdSupport (~> 10.1.0)
@@ -116,7 +111,6 @@ PODS:
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
-  - OpenSSL-Universal (1.1.180)
   - PhoneNumberKit (3.3.4):
     - PhoneNumberKit/PhoneNumberKitCore (= 3.3.4)
     - PhoneNumberKit/UIKit (= 3.3.4)
@@ -125,16 +119,12 @@ PODS:
     - PhoneNumberKit/PhoneNumberKitCore
   - PromisesObjC (2.1.1)
   - Resolver (1.5.0)
-  - Socket.IO-Client-Swift (16.0.1):
-    - Starscream (~> 4.0)
   - Sourcery (1.6.0)
-  - Starscream (4.0.4)
   - SwiftEntryKit (2.0.0)
   - SwiftGen (6.6.2)
   - SwiftLint (0.49.1)
   - SwiftyMocky (4.1.0):
     - Sourcery (= 1.6.0)
-  - XCWebRTC (1.0.2)
 
 DEPENDENCIES:
   - AnyFormatKitSwiftUI
@@ -142,7 +132,6 @@ DEPENDENCIES:
   - Apollo (= 0.51.2)
   - Confy
   - CryptoSwift
-  - "FaceKomSDK (from `git@github.com:Magyar-Bankholding-Zrt/sdk-facekom-ios.git`)"
   - Firebase/AnalyticsWithoutAdIdSupport
   - Firebase/Crashlytics
   - Firebase/Messaging
@@ -157,8 +146,6 @@ DEPENDENCIES:
   - SwiftyMocky
 
 SPEC REPOS:
-  https://github.com/TechTeamer/ios-xc-webrtc.git:
-    - XCWebRTC
   trunk:
     - AnyFormatKit
     - AnyFormatKitSwiftUI
@@ -181,27 +168,19 @@ SPEC REPOS:
     - KeychainAccess
     - lottie-ios
     - nanopb
-    - OpenSSL-Universal
     - PhoneNumberKit
     - PromisesObjC
     - Resolver
-    - Socket.IO-Client-Swift
     - Sourcery
-    - Starscream
     - SwiftGen
     - SwiftLint
     - SwiftyMocky
 
 EXTERNAL SOURCES:
-  FaceKomSDK:
-    :git: "git@github.com:Magyar-Bankholding-Zrt/sdk-facekom-ios.git"
   SwiftEntryKit:
     :git: https://github.com/ZsoltMolnarMBH/SwiftEntryKit.git
 
 CHECKOUT OPTIONS:
-  FaceKomSDK:
-    :commit: 4435c9141617cf655bc58ab055bffe2e6052c687
-    :git: "git@github.com:Magyar-Bankholding-Zrt/sdk-facekom-ios.git"
   SwiftEntryKit:
     :commit: 6154da0ff6a24ca05c890b6523fa1fff99238d5d
     :git: https://github.com/ZsoltMolnarMBH/SwiftEntryKit.git
@@ -212,7 +191,6 @@ SPEC CHECKSUMS:
   Apollo: e5bc805c3f3556c18edc4eae4e2ea4723cea2318
   Confy: 55cf0469f68f66f3e5792eb64734c5f401700972
   CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
-  FaceKomSDK: af73d06009698da2d2ec66c04c1f882c39f1bc8d
   Firebase: 444b35a9c568a516666213c2f6cccd10cb12559f
   FirebaseABTesting: 8404d743de561c73570c8dbb7810035ffec10053
   FirebaseAnalytics: 24cb27b52b2e11ad5013528195b4ca0755dec960
@@ -229,19 +207,15 @@ SPEC CHECKSUMS:
   KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
   lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
-  OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
   PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
-  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Sourcery: 744f43178637c79bf23127dfe34e2103b3f28499
-  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
   SwiftEntryKit: 61b5fa36f34a97dd8013e48a7345bc4c4720be9a
   SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
   SwiftLint: 32ee33ded0636d0905ef6911b2b67bbaeeedafa5
   SwiftyMocky: 014739247afadb65efb5bb92ede32c22b9365762
-  XCWebRTC: 635b3521fd95cde033f08e71790517231929f8b3
 
-PODFILE CHECKSUM: 196bd38b7c3b6c4a7c13ebb2bcbc37eb2723dbd6
+PODFILE CHECKSUM: 0b25348d6981704d8c6049c713a3e0b2761d86a7
 
 COCOAPODS: 1.11.3

@@ -32,7 +32,7 @@ target 'DailyBanking' do
   pod 'AnyFormatKitSwiftUI'
   pod 'Confy'
   pod 'lottie-ios'
-  pod 'FaceKomSDK', :git => 'git@github.com:Magyar-Bankholding-Zrt/sdk-facekom-ios.git'
+  #pod 'FaceKomSDK', :git => 'git@github.com:Magyar-Bankholding-Zrt/sdk-facekom-ios.git'
 
   target 'DailyBankingTests' do
     inherit! :search_paths

@@ -113,38 +113,38 @@ class AccountOpeningCoordinator: Coordinator {
     }
 
     private func showKycStep(on viewController: UIViewController? = nil) {
-        let coordinator = Coordinator.make(
-            using: container.makeChild(),
-            assembly: KycAssembly()) { container in
-                KycCoordinator(container: container)
-            }
-        add(child: coordinator)
-        let mode: KycCoordinator.Mode
-        if config.isKycEnabled {
-            mode = .facekom
-        } else {
-            let draft = accountOpeningDraftStore.state.value
-            mode = .manual(email: draft.individual!.email.address, phone: draft.individual!.phoneNumber)
-        }
-        coordinator.start(on: navigationController, mode: mode) { [weak self, weak coordinator] result in
-            guard let self = self, let coordinator = coordinator else { return }
-            switch result {
-            case .finished(let kycDraft):
-                let firstName = kycDraft.fields.firstName.value
-                let lastName = kycDraft.fields.lastName.value
-                self.accountOpeningDraftStore.modify {
-                    $0.individual?.legalName = .init(firstName: firstName, lastName: lastName)
-                }
-                self.showConsentsStartPage()
-            case .cancelled:
-                break
-            }
-            self.remove(child: coordinator)
-        }
-        if let viewController = viewController {
-            navigationController.modalPresentationStyle = .fullScreen
-            viewController.present(navigationController, animated: true)
-        }
+//        let coordinator = Coordinator.make(
+//            using: container.makeChild(),
+//            assembly: KycAssembly()) { container in
+//                KycCoordinator(container: container)
+//            }
+//        add(child: coordinator)
+//        let mode: KycCoordinator.Mode
+//        if config.isKycEnabled {
+//            mode = .facekom
+//        } else {
+//            let draft = accountOpeningDraftStore.state.value
+//            mode = .manual(email: draft.individual!.email.address, phone: draft.individual!.phoneNumber)
+//        }
+//        coordinator.start(on: navigationController, mode: mode) { [weak self, weak coordinator] result in
+//            guard let self = self, let coordinator = coordinator else { return }
+//            switch result {
+//            case .finished(let kycDraft):
+//                let firstName = kycDraft.fields.firstName.value
+//                let lastName = kycDraft.fields.lastName.value
+//                self.accountOpeningDraftStore.modify {
+//                    $0.individual?.legalName = .init(firstName: firstName, lastName: lastName)
+//                }
+//                self.showConsentsStartPage()
+//            case .cancelled:
+//                break
+//            }
+//            self.remove(child: coordinator)
+//        }
+//        if let viewController = viewController {
+//            navigationController.modalPresentationStyle = .fullScreen
+//            viewController.present(navigationController, animated: true)
+//        }
     }
 
     private func startFromContractStep(on viewController: UIViewController) {

@@ -54,13 +54,13 @@ class AppConfig: ConfigGroup {
         @Config({ true }) var skipEmailValidation
     }
 
-    let kyc = Kyc()
-    class Kyc: ConfigGroup, KycConfig {
-        @Config({ false }) var safeDocumentPreviews: Bool
-        @Config({ true }) var autoCloseRoom: Bool
-        @Config({ true }) var useFlashOnHologramCheck: Bool
-        @Config({ 0.2 }) var selfieCropSize: Double
-    }
+//    let kyc = Kyc()
+//    class Kyc: ConfigGroup, KycConfig {
+//        @Config({ false }) var safeDocumentPreviews: Bool
+//        @Config({ true }) var autoCloseRoom: Bool
+//        @Config({ true }) var useFlashOnHologramCheck: Bool
+//        @Config({ 0.2 }) var selfieCropSize: Double
+//    }
 
     let dashboard = Dashboard()
     class Dashboard: ConfigGroup, DashboardConfig {

@@ -842,6 +842,7 @@
 		5DEC54EF27A3E44000C8D70C /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
 		5DEC54F127A3EE0300C8D70C /* Result+NewTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+NewTransfer.swift"; sourceTree = "<group>"; };
 		5DF581F9292EA4B8003DC976 /* CryptoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMock.swift; sourceTree = "<group>"; };
+		5DF581FB292FE4A9003DC976 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		5DFAD7412859E41300671750 /* PhoneNumberValidity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberValidity.swift; sourceTree = "<group>"; };
 		600D8B67275A0EC200DB6DCE /* ConsentsStartPageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentsStartPageScreen.swift; sourceTree = "<group>"; };
 		600D8B69275A0ED300DB6DCE /* ConsentsStartPageScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentsStartPageScreenViewModel.swift; sourceTree = "<group>"; };
@@ -3205,6 +3206,7 @@
 		A7CCDA0D26CA4F460025E1A8 = {
 			isa = PBXGroup;
 			children = (
+				5DF581FB292FE4A9003DC976 /* codemagic.yaml */,
 				B8A3DDFA271889AE006283F5 /* BankAPI */,
 				A7CCDA1826CA4F460025E1A8 /* DailyBanking */,
 				B87C0BAA27188B91009102C9 /* DesignKit */,

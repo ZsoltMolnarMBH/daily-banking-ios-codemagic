@@ -235,156 +235,156 @@ class LoginActionTests: BaseTestCase {
 //        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
 //    }
 
-    func testLogin_failed_invalidpin() throws {
-        // Given
-        let tokenStore = container.resolve((any TokenStore).self)
-        let expectation = XCTestExpectation()
+//    func testLogin_failed_invalidpin() throws {
+//        // Given
+//        let tokenStore = container.resolve((any TokenStore).self)
+//        let expectation = XCTestExpectation()
+//
+//        authKeyStoreMock.modify { $0 = .init(id: "+36209999999", keyFile: CryptoMock.validKeyFile()) }
+//        Given(apiMock, .publisher(
+//            for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any,
+//               willReturn: .error(graphQL: .mock.invalidPin))
+//        )
+//
+//        // When
+//        sut.login(pin: [1, 2, 3, 4, 5, 6])
+//            .sink { completion in
+//                switch completion {
+//                case .failure(let error):
+//                    if case .action(let loginError) = error, case .invalidPin(remainingAttempts: let remaining) = loginError {
+//                        XCTAssertEqual(remaining, 4)
+//                        expectation.fulfill()
+//                    } else {
+//                        XCTFail("Invalid error type")
+//                    }
+//                case .finished:
+//                    XCTFail("Response should be failed")
+//                }
+//
+//            }
+//            .store(in: &disposeBag)
+//
+//        wait(for: [expectation], timeout: 4)
+//
+//        // Then
+//        Verify(apiMock, 1, .publisher(for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any))
+//        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
+//        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
+//    }
 
-        authKeyStoreMock.modify { $0 = .init(id: "+36209999999", keyFile: CryptoMock.validKeyFile()) }
-        Given(apiMock, .publisher(
-            for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any,
-               willReturn: .error(graphQL: .mock.invalidPin))
-        )
+//    func testLogin_failed_temporary_blocked() throws {
+//        // Given
+//        let tokenStore = container.resolve((any TokenStore).self)
+//        let expectation = XCTestExpectation()
+//
+//        authKeyStoreMock.modify { $0 = .init(id: "+36209999999", keyFile: CryptoMock.validKeyFile()) }
+//        Given(apiMock, .publisher(
+//            for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any,
+//               willReturn: .error(graphQL: .mock.temporaryBlocked))
+//        )
+//
+//        // When
+//        sut.login(pin: [1, 2, 3, 4, 5, 6])
+//            .sink { completion in
+//                switch completion {
+//                case .failure(let error):
+//                    if case .action(let loginError) = error, case .temporaryBlocked(blockedTime: let blockedTime) = loginError {
+//                        XCTAssertEqual(blockedTime, 15)
+//                        expectation.fulfill()
+//                    } else {
+//                        XCTFail("Invalid error type")
+//                    }
+//                case .finished:
+//                    XCTFail("Response should be failed")
+//                }
+//
+//            }
+//            .store(in: &disposeBag)
+//
+//        wait(for: [expectation], timeout: 4)
+//
+//        // Then
+//        Verify(apiMock, 1, .publisher(for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any))
+//        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
+//        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
+//    }
 
-        // When
-        sut.login(pin: [1, 2, 3, 4, 5, 6])
-            .sink { completion in
-                switch completion {
-                case .failure(let error):
-                    if case .action(let loginError) = error, case .invalidPin(remainingAttempts: let remaining) = loginError {
-                        XCTAssertEqual(remaining, 4)
-                        expectation.fulfill()
-                    } else {
-                        XCTFail("Invalid error type")
-                    }
-                case .finished:
-                    XCTFail("Response should be failed")
-                }
+//    func testLogin_failed_deviceActivationRequired() throws {
+//        // Given
+//        let tokenStore = container.resolve((any TokenStore).self)
+//        let expectation = XCTestExpectation()
+//
+//        authKeyStoreMock.modify { $0 = .init(id: "+36209999999", keyFile: CryptoMock.validKeyFile()) }
+//        Given(apiMock, .publisher(
+//            for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any,
+//               willReturn: .error(graphQL: .mock.deviceActivationRequired))
+//        )
+//
+//        // When
+//        sut.login(pin: [1, 2, 3, 4, 5, 6])
+//            .sink { completion in
+//                switch completion {
+//                case .failure(let error):
+//                    if case .action(let loginError) = error, case .deviceActivationRequired = loginError {
+//                        expectation.fulfill()
+//                    } else {
+//                        XCTFail("Invalid error type")
+//                    }
+//                case .finished:
+//                    XCTFail("Response should be failed")
+//                }
+//
+//            }
+//            .store(in: &disposeBag)
+//
+//        wait(for: [expectation], timeout: 4)
+//
+//        // Then
+//        Verify(apiMock, 1, .publisher(for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any))
+//        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
+//        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
+//    }
 
-            }
-            .store(in: &disposeBag)
-
-        wait(for: [expectation], timeout: 4)
-
-        // Then
-        Verify(apiMock, 1, .publisher(for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any))
-        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
-        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
-    }
-
-    func testLogin_failed_temporary_blocked() throws {
-        // Given
-        let tokenStore = container.resolve((any TokenStore).self)
-        let expectation = XCTestExpectation()
-
-        authKeyStoreMock.modify { $0 = .init(id: "+36209999999", keyFile: CryptoMock.validKeyFile()) }
-        Given(apiMock, .publisher(
-            for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any,
-               willReturn: .error(graphQL: .mock.temporaryBlocked))
-        )
-
-        // When
-        sut.login(pin: [1, 2, 3, 4, 5, 6])
-            .sink { completion in
-                switch completion {
-                case .failure(let error):
-                    if case .action(let loginError) = error, case .temporaryBlocked(blockedTime: let blockedTime) = loginError {
-                        XCTAssertEqual(blockedTime, 15)
-                        expectation.fulfill()
-                    } else {
-                        XCTFail("Invalid error type")
-                    }
-                case .finished:
-                    XCTFail("Response should be failed")
-                }
-
-            }
-            .store(in: &disposeBag)
-
-        wait(for: [expectation], timeout: 4)
-
-        // Then
-        Verify(apiMock, 1, .publisher(for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any))
-        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
-        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
-    }
-
-    func testLogin_failed_deviceActivationRequired() throws {
-        // Given
-        let tokenStore = container.resolve((any TokenStore).self)
-        let expectation = XCTestExpectation()
-
-        authKeyStoreMock.modify { $0 = .init(id: "+36209999999", keyFile: CryptoMock.validKeyFile()) }
-        Given(apiMock, .publisher(
-            for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any,
-               willReturn: .error(graphQL: .mock.deviceActivationRequired))
-        )
-
-        // When
-        sut.login(pin: [1, 2, 3, 4, 5, 6])
-            .sink { completion in
-                switch completion {
-                case .failure(let error):
-                    if case .action(let loginError) = error, case .deviceActivationRequired = loginError {
-                        expectation.fulfill()
-                    } else {
-                        XCTFail("Invalid error type")
-                    }
-                case .finished:
-                    XCTFail("Response should be failed")
-                }
-
-            }
-            .store(in: &disposeBag)
-
-        wait(for: [expectation], timeout: 4)
-
-        // Then
-        Verify(apiMock, 1, .publisher(for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any))
-        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
-        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
-    }
-
-    func testLogin_failed_generic() throws {
-        // Given
-        let tokenStore = container.resolve((any TokenStore).self)
-        let expectation = XCTestExpectation()
-
-        let failure: AnyPublisher<LoginV2Query.Data, Error> = Fail<LoginV2Query.Data, Error>(
-            outputType: LoginV2Query.Data.self,
-            failure: TestError.simple
-        ).eraseToAnyPublisher()
-
-        authKeyStoreMock.modify { $0 = .init(id: "+36209999999", keyFile: CryptoMock.validKeyFile()) }
-        Given(apiMock, .publisher(
-            for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any,
-            willReturn: failure)
-        )
-
-        // When
-        sut.login(pin: [1, 2, 3, 4, 5, 6])
-            .sink { completion in
-                switch completion {
-                case .failure(let error):
-                    if error is LoginError {
-                        XCTFail("Invalid error type")
-                    } else {
-                        expectation.fulfill()
-                    }
-                case .finished:
-                    XCTFail("Response should be failed")
-                }
-
-            }
-            .store(in: &disposeBag)
-
-        wait(for: [expectation], timeout: 4)
-
-        // Then
-        Verify(apiMock, 1, .publisher(for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any))
-        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
-        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
-    }
+//    func testLogin_failed_generic() throws {
+//        // Given
+//        let tokenStore = container.resolve((any TokenStore).self)
+//        let expectation = XCTestExpectation()
+//
+//        let failure: AnyPublisher<LoginV2Query.Data, Error> = Fail<LoginV2Query.Data, Error>(
+//            outputType: LoginV2Query.Data.self,
+//            failure: TestError.simple
+//        ).eraseToAnyPublisher()
+//
+//        authKeyStoreMock.modify { $0 = .init(id: "+36209999999", keyFile: CryptoMock.validKeyFile()) }
+//        Given(apiMock, .publisher(
+//            for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any,
+//            willReturn: failure)
+//        )
+//
+//        // When
+//        sut.login(pin: [1, 2, 3, 4, 5, 6])
+//            .sink { completion in
+//                switch completion {
+//                case .failure(let error):
+//                    if error is LoginError {
+//                        XCTFail("Invalid error type")
+//                    } else {
+//                        expectation.fulfill()
+//                    }
+//                case .finished:
+//                    XCTFail("Response should be failed")
+//                }
+//
+//            }
+//            .store(in: &disposeBag)
+//
+//        wait(for: [expectation], timeout: 4)
+//
+//        // Then
+//        Verify(apiMock, 1, .publisher(for: Parameter<LoginV2Query>.any, cachePolicy: Parameter<CachePolicy>.any))
+//        XCTAssertEqual(tokenStore.state.value?.accessToken, nil)
+//        XCTAssertEqual(tokenStore.state.value?.refreshToken, nil)
+//    }
 }
 
 private extension GraphQLError.Mock {

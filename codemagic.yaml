@@ -1,5 +1,5 @@
 workflows:
-  my-workflow:
+  unit_tests:
     instance_type: mac_mini_m1
     environment:
       #ruby: 2.6.4
@@ -9,7 +9,6 @@ workflows:
         - push
       branch_patterns:
         - pattern: "*"
-#    working_directory: mobile
     scripts:
       - name: Bundle install
         script: bundle install

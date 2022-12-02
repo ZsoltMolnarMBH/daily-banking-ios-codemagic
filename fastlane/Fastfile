@@ -22,7 +22,6 @@ platform :ios do
 
   lane :tests do
     run_tests(
-      devices: ["iPhone 12"],
       scheme: "DailyBanking",
       code_coverage: true,
       skip_testing: ["DailyBankingUITests"]

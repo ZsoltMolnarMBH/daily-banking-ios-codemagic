@@ -5,6 +5,9 @@
 //  Created by Molnár Zsolt on 2021. 10. 15..
 //
 
+
+// :)
+
 import UIKit
 import Firebase
 import FirebaseRemoteConfig
